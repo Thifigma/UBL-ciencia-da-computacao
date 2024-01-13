@@ -1,0 +1,6 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdução}{2}{}%
+\contentsline {chapter}{\numberline {2}História e Opnião}{3}{}%
+\contentsline {chapter}{\numberline {3}Definição}{4}{}%
+\contentsline {chapter}{\numberline {4}Exemplos de Softwares Livres}{5}{}%
+\contentsline {chapter}{\numberline {5}Conclusão}{6}{}%
