@@ -1,7 +1,0 @@
-\babel@toc {brazil}{}\relax 
-\contentsline {section}{\numberline {1}História}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Opnião}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Empreendedorismo}{2}{}%
-\contentsline {section}{\numberline {2}Definição}{2}{}%
-\contentsline {section}{\numberline {3}Exemplos de Softwares Livres}{2}{}%
-\contentsline {section}{\numberline {4}Conclusão}{2}{}%
