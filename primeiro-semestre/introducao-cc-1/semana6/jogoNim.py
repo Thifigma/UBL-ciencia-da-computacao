@@ -71,16 +71,15 @@ def main():
     print("1 - para jogar uma partida isolada")
     print("2 - para jogar um campeonato")
     escolha = int(input())
+    
+    n = int(input("Quantas peças? "))
+    m = int(input("Limite de pelas por rodada? "))
         
     if(escolha == 1):
-        n = int(input("Quantas peças? "))
-        m = int(input("Limite de pelas por rodada? "))
         partida(n, m)
 
     if(escolha  == 2):
         print(" Você escolheu campeonato! ")
-        n = int(input("Quantas peças? "))
-        m = int(input("Limite de pelas por rodada? "))
         rodada = 1
         while (rodada <= 3):
             print("**** Rodada ",rodada,"*****")
