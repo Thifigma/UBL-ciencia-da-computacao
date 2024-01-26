@@ -1,7 +1,7 @@
 # UBL-ciencia-da-computacao
 * Este é o registro da minha trajetória na Universidade Brasileira Livre no curso de Ciência da Computação.
 
-#Sobre a Universidade Brasileira Livre
+# Sobre a Universidade Brasileira Livre
 
 O Curso de Ciência da Computação oferecido pela Universidade Livre Brasileira é **uma educação completa em Ciência da Computação** 
 usando materiais on-line e em Português do Brasil.
