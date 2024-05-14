@@ -19,9 +19,11 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 ## Turmas Atuais
 
 |Nome da disciplina|Situação|Período|
-|:--:||:--:|
-|Matemática Discreta|Não Vencida|1º Período|
+|:--:|:--:|:--:|
+|Circuitos Digitais|Cursando |1º Período|
 |Introdução à Ciência da Computação com Python I|Cursando|1º Período|
+
+
 
 ## Integralização 
 
