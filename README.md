@@ -16,4 +16,19 @@ Os pilares da universidade consiste em:
 
 Este é o registro da minha trajetória na Universidade Brasileira Livre no curso de Ciência da Computação.
 
-## 
+## Turmas Atuais
+
+Nome da disciplina | Situação | Período |
+
+Matemática Discreta | Não Vencida | 1º Período |
+Introdução à Ciência da Computação com Python I | Cursando | 1º Período |
+
+## Integralização 
+
+Nome da disciplina |  Situação | Período|
+
+Circuitos Digitais | Cursando | 1º Período|	
+Matemática Discreta | Não Vencida | 1º Período |
+Linguagens de Programação | Não Vencida | 1° Período |
+Introdução à Ciência da Computação com Python I | Cursando | 1º Período |
+Geometria Analítica | Não Vencida | 1° Período |
