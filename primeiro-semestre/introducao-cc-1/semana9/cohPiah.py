@@ -126,11 +126,22 @@ def calcula_assinatura(texto):
         e deve devolver o numero (1 a n) do texto com maior probabilidade de 
         ter sido infectado por COH-PIAH.'''
 def avalia_textos(textos, ass_cp):
-    grau_de_similaridade = 0; ''' Quanto menor o valor, mais similiar é o texto.'''
+    ''' Quanto menor o valor mais similar é. 
+        Além disso estou usando a técnica de chutar para depois corrigir. 
+    '''
+    grau_de_similaridade = 200;
+    indice = 0; ''' Indice com o maior grau de similaridade. '''
     i = 0;
-    while (i < len(textos)):
-        
 
+    
+    while (i < len(textos)):
+        if (grau_de_similaridade < compara_assinatura(calcula_assinatura(textos[i]), ass_cp)):
+            grau_de_similaridade = compara_assinatura(calcula_assinatura(textos[i]), ass_cp)
+            indice = i;
+
+        i = i + 1;
+
+    return indice;
 
 
 def main():
@@ -138,8 +149,6 @@ def main():
     as_Padrao = le_assinatura()
     textos = le_textos()
     
-    print(compara_assinatura(calcula_assinatura(textos[0]), as_Padrao))
-    
-    avalia_textos(textos, as_Padrao)
+    print(avalia_textos(textos, as_Padrao))
 
 main()
