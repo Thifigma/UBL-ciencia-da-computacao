@@ -72,7 +72,13 @@ def n_palavras_diferentes(lista_palavras):
 
 def compara_assinatura(as_a, as_b):
     '''IMPLEMENTAR. Essa funcao recebe duas assinaturas de texto e deve devolver o grau de similaridade nas assinaturas.'''
-    pass
+
+    grau_similaridade = 0
+
+    for i in range(6):
+        grau_similaridade += abs(as_a[i] -  as_b[i])
+    
+    print(grau_similaridade)
 
 def constroi_frases(sentencas):
     ''' Essa funcao retorna uma lista de frases.'''
@@ -105,13 +111,13 @@ def soma_palavras(palavras):
 
     return soma
 
-def soma_caracter(palavras):
+def soma_caracter(sentencas):
     ''' Essa função retorna a soma de caracter '''
     soma = 0
 
-    for palavra in palavras:
-        for letra in palavra:
-            soma += 1
+    for sentenca in sentencas:
+        for caracter in sentenca:
+            soma += 1  
 
     return soma
 
@@ -124,10 +130,10 @@ def calcula_assinatura(texto):
     
     wal = soma_palavras(palavras) / len(palavras)                            
     ttr = n_palavras_diferentes(palavras) / len(palavras)
-    hlr = n_palavras_unicas(palavras) / len(palavras)
-    sal = soma_caracter(palavras) / len(sentencas)
+    hlr = n_palavras_unicas(palavras) / len(palavras) 
+    sal = soma_caracter(sentencas) / len(sentencas)
     sac = len(frases) / len(sentencas)
-    pal = soma_caracter(palavras) / len(frases)
+    pal = soma_caracter(frases) / len(frases)
                                        
     return [wal, ttr, hlr, sal, sac, pal]
 
@@ -148,10 +154,12 @@ def constroi_assinaturas(textos):
 
 def main():
     
-    le_assinatura()
+    ass_cp = le_assinatura()
     textos = le_textos()
     assinaturas = constroi_assinaturas(textos)
 
+    for ass_al in assinaturas:
+        compara_assinatura(ass_al, ass_cp)
 
 if __name__ == "__main__":
     main()
