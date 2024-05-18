@@ -18,8 +18,8 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 
 ## Turmas Atuais
 
-|Nome da disciplina|Situação|Período|
-|:--:|:--:|
+|Nome da disciplina|Situação|
+|:-:|:-:|
 |Circuitos Digitais|Cursando|
 
 
