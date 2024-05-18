@@ -21,7 +21,6 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 |Nome da disciplina|Situação|Período|
 |:--:|:--:|:--:|
 |Circuitos Digitais|Cursando |1º Período|
-|Introdução à Ciência da Computação com Python I|Cursando|1º Período|
 
 
 
@@ -31,7 +30,6 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 |:--:|:--:|:--:|
 |Circuitos Digitais|Cursando |1º Período|
 |Matemática Discreta|Não Vencida|1º Período|
-|Linguagens de Programação|Não Vencida|1° Período|
-|Introdução à Ciência da Computação com Python I|Cursando|1º Período|
-|Geometria Analítica|Não Vencida|1° Período|
+|Linguagens de Programação|Não Vencida|1° Perío|Introdução à Ciência da Computação com Python I|Cursando|1º Período|
+|Introdução à Ciência da Computação com Python I|Finalizado|1º Período|
 
