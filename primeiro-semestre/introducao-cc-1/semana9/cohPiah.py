@@ -78,7 +78,7 @@ def compara_assinatura(as_a, as_b):
     for i in range(6):
         grau_similaridade += abs(as_a[i] -  as_b[i])
     
-    print(grau_similaridade)
+    return (grau_similaridade / 6)
 
 def constroi_frases(sentencas):
     ''' Essa funcao retorna uma lista de frases.'''
@@ -139,8 +139,20 @@ def calcula_assinatura(texto):
 
 def avalia_textos(textos, ass_cp):
     '''IMPLEMENTAR. Essa funcao recebe uma lista de textos e uma assinatura ass_cp e deve devolver o numero (1 a n) do texto com maior probabilidade de ter sido infectado por COH-PIAH.'''
-    pass
+    
+    i = 1
+    menor = 100
+    assinaturas = constroi_assinaturas(textos)
 
+    for ass_al in assinaturas:
+        
+        if compara_assinatura(ass_al, ass_cp) < menor:
+            menor = compara_assinatura(ass_al, ass_cp)
+            selecionado = i               
+        
+        i += 1
+
+    print("O texto", selecionado, "estao infectado com COH-PIAH")
 
 def constroi_assinaturas(textos):
     ''' Essa função retorna a assinatura de todos os textos.'''
@@ -156,10 +168,7 @@ def main():
     
     ass_cp = le_assinatura()
     textos = le_textos()
-    assinaturas = constroi_assinaturas(textos)
-
-    for ass_al in assinaturas:
-        compara_assinatura(ass_al, ass_cp)
-
+    avalia_textos(textos, ass_cp)
+    
 if __name__ == "__main__":
     main()
