@@ -1,3 +1,6 @@
 *.aux
 *.log
 *.toc
+*.bbl
+*.blg
+*.ref
