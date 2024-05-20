@@ -4,6 +4,8 @@
 \usepackage[brazil]{babel}
 \usepackage[top=2cm, bottom=2cm, right=2cm, left=2cm]{geometry}
 
+
+\usepackage{graphicx}
 \usepackage{natbib}
 
 
@@ -32,10 +34,36 @@
 	o sinal de saída do circuito que é digital, em analógico novamente.\citep{art2}
 
 	\section{Conversão Analógico - Digital (Discretação)}
+	Sinais discretos são frequências descontinuas no tempo, ou seja, definida apenas
+	para determinados instantes. Representa aproximadamente o mundo real, entretanto,
+	podem ser utilizadas várias técnicas para melhorar a representação, como as de 
+	processamento de sinais digitais.\\
+	\\
+	Aqui também vale ressaltar que o processo de discretação de alguma informação
+	está consequentemente ligada a perca de determinadas informações.
+		
+		\subsection{Principais propiedades da discretação}
+		\begin{enumerate}
+			\item\textbf{Amostragem}: Discretação do sinal analógico no tempo.
+			\item\textbf{Quantização}: Discretação da amplitude do sinal amsotrado 
+				em niveis.
+			\item\textbf{Codificação}: Atribuição de códigos, onde geralmente 
+				são binários às	amplitudes do sinal quantizado.
+		\end{enumerate}
 
+	\section{Conversão Digital - Analógico (Linearização)}
+	Se refere a o processo que transforma um sinal modelado por eventos discretos
+	em um sinal contínuo, ou seja, o processo de integração de vários sinais discretos
+	para simular um evento contínuo.
 
+	\section{Processamento}
+	O processamento de informação se refere a diversas operaçõs realizadas por um circuito
+	digital para transformar a entrada de dados em uma saida significativa de interesse. 
+	Isso pode ser calculos, manipular dados como agregação, separação e classificação 
+	ou ainda filragem, entre outros. Além disso, no circuito digital é simplificado o 
+	armazenamento de informações bem como possui uma menor probabilidade de interferências.
 
-
+		
 	% Referências. 
 
 	\bibliographystyle{apalike}
