@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: circuitos-digitais.aux
 The style file: apalike.bst
 Database file #1: ref.bib
-You've used 3 entries,
+You've used 4 entries,
             1935 wiz_defined-function locations,
-            486 strings with 3991 characters,
-and the built_in function-call counts, 972 in all, are:
-= -- 89
-> -- 43
-< -- 1
-+ -- 14
-- -- 14
-* -- 73
-:= -- 187
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 22
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 40
-empty$ -- 64
-format.name$ -- 17
-if$ -- 181
+            491 strings with 4056 characters,
+and the built_in function-call counts, 1242 in all, are:
+= -- 115
+> -- 50
+< -- 2
++ -- 16
+- -- 16
+* -- 90
+:= -- 239
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 28
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 53
+empty$ -- 84
+format.name$ -- 20
+if$ -- 232
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 18
-num.names$ -- 9
-pop$ -- 23
+missing$ -- 5
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 28
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 28
 quote$ -- 0
-skip$ -- 31
+skip$ -- 42
 stack$ -- 0
-substring$ -- 36
-swap$ -- 3
+substring$ -- 48
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 16
+type$ -- 22
 warning$ -- 0
-while$ -- 6
+while$ -- 8
 width$ -- 0
-write$ -- 39
+write$ -- 51
