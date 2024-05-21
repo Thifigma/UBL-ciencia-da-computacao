@@ -21,7 +21,8 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 |Nome da disciplina|Situação|
 |:-:|:-:|
 |Circuitos Digitais|Cursando|
-
+|Linguagens de programação|Cursando|
+|Matemática Discreta|Cursando|
 
 
 ## Curriculo
