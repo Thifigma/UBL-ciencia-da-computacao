@@ -134,6 +134,33 @@
 		\sum_{i = 1}^{\infty} a_{-i} * 10^{-i}$
 	\end{center}
 
+	\section{Truncamento}
+	Vemos que à medida que caminhamos mais a direita depois da virgula, o
+	valor relativo a cada algarismo se torna cada vez menor, podemos
+	fazer uma representação aproximada do número gerado, limitando 
+	o número de algarismos após a vírgula por uma constante \texttt{M}.\\
+	\\
+	Essa aproximação chama-se truncamento. Com o truncamento há também
+	um erro de aproximaçaõ que pode ser obtido com a diferença do número original
+	com o número truncado.\\
+	\\
+	Ao truncarmos um número com uma constante \texttt{M} para qualquer 
+	número real com n algarismos à esquerda da virgula, 
+	e \texttt{M} algarismos à direita, assim: 
+
+	\begin{center}
+		$a_{n-1} a_{n-2} ... a_{1} a_{0}, a_{-1} a_{-2} ... a_{M}$
+	\end{center}
+
+	então temos que o erro de aproximação de qualquer número N será:
+
+	\begin{center}
+		$\texttt{err} < 10^{-M}$
+	\end{center}
+	
+	ou seja, aumentar \texttt{M} implica em diminuir o erro.
+
+
 	% Referências. 
 
 	\bibliographystyle{apalike}
