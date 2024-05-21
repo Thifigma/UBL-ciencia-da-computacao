@@ -159,7 +159,38 @@
 	\end{center}
 	
 	ou seja, aumentar \texttt{M} implica em diminuir o erro.
+	
+	\section{Bases não decimais}
+	A quantidade de algarismos usados em um sistema de numeração posicional é
+	chama de base, por exemplo: O sistema decimal tem 10, o sistema binário tem 2 e 
+	assim por diante.\\
+	\\
+	Acima fizemos uma representação matemática dos números posicionais 
+	racionais, a questão é que, em um sistema posicional em uma determinada
+	base \textbf{d}, pode ser representada da seguinte forma: 
 
+	\begin{center}
+		$\sum_{i=0}^{n-1} a_{i} * d^{i} + 
+		\sum_{i=1}^{\infty} a_{-i} * d^{-i}$
+	\end{center}
+
+	Para indicar a base em que um número esta representado é comum a 
+	seguinte notação:
+
+	\begin{center}
+		$(a_{n-1} a_{n-2} ... a_{1} a_{0}, a_{-1} a_{-2} ... a_{M})_d$
+	\end{center}
+
+	\section{Conversão de bases}
+	Para converter um número $\textbf{n}_{10}$ para $\textbf{n}_{d}$ faremos
+	divisões sucessivas entre o quociente e a base \textbf{d}.\\
+	\\
+	Existem algumas conversões que são triviais de realizar, como por exemplo
+	da base 2 para base 16, ou ainda, da base 10 \texttt{(até o 15)} 
+	para base 16.\\
+	\\
+	Da base 2 para base 16 por exemplo, pode se seguir o padrão de contagem 
+	de 4 em 4 bits e ver qual a representação.
 
 	% Referências. 
 
