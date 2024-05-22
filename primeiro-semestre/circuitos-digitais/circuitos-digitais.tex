@@ -191,6 +191,62 @@
 	\\
 	Da base 2 para base 16 por exemplo, pode se seguir o padrão de contagem 
 	de 4 em 4 bits e ver qual a representação.
+	
+	\section{Operações Binárias}
+	A base 2 é a base númerica mais utilizada na computação hoje em dia, em conjunto
+	com a base 8, 16 e 64. Veremos futuramente que o computador realiza operações
+	aritméticas na sua Unidade Lógica Aritmética \texttt{(ULA)}, entenderemos
+	agora como essas operações são realizadas na base binária.
+
+	\subsection{soma}
+	Antes de falarmos sobre a soma binária, precisamos relembrar o algoritmo da
+	soma decimal, considere dois numeros A e B, sendo eles:\\
+	\\
+	A = $a_{n-1} a_{n-2} ... a_1 a_0$\\
+	B = $b_{n-1} b_{n-2} ... b_1 b_0$\\
+	\\
+	O resultado da soma de A com B:\\
+	\\
+	C = $c_n c_{n-1} c_{n-2} ... c_{1} c_{0}$ com n + 1 algarismos.\\
+	\\
+	O mesmo método se aplica a somas binárias, exemplificado abaixo:
+	\begin{table}[h]
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			x & Y & Resultado & Vai um \\ \hline
+			0 & 0 & 0 & 0 \\ \hline
+			0 & 1 & 1 & 0 \\ \hline
+			1 & 0 & 1 & 0 \\ \hline
+			1 & 1 & 1 & 1 \\ \hline
+		\end{tabular}
+	\end{table}
+	
+	\subsection{Overflow}
+	Agora considere a seguinte soma, $(111001)_2 + (110011)_2 = (1101100)_2$ 
+	repare que a soma de dois números binários de 6 bits, resultou em um número
+	binário de 7 bits, se nossa memoria fosse apenas de 6 bits, ocasionária um 
+	\texttt{overflow}.\\
+	\\
+	Há também a possibilidade de fazer a representação em uma quantidade maior de
+	bits, basta adicionar o zero a esquerda do número.
+
+	\subsection{Subtração}
+	Para realizar as subtrações binárias, usaremos o complemento de 1 e complemento
+	de 2, para evitar, detalhamentos adicionais.\\
+	\\
+	\textbf{Complemento de 1}: O complemento de 1, basicamente, é o processo
+	de inversão do bit, se for 1 fica 0 e vise versa.\\
+	\\
+	\textbf{Complemento de 2}: É o complemento de 1 de uma sequência de bit,
+	adicionando uma unidade ao final, exemplificando:
+	
+	\begin{description}
+		\item[$\bar{B}$]: Complemento de 1
+		\item[$\bar{B} + 1$]: Complemento de 2
+	\end{description}
+
+
+
 
 	% Referências. 
 
