@@ -228,7 +228,8 @@
 	\texttt{overflow}.\\
 	\\
 	Há também a possibilidade de fazer a representação em uma quantidade maior de
-	bits, basta adicionar o zero a esquerda do número.
+	bits, basta adicionar o zero a esquerda do número e ter memória suficiente 
+	para a representação.
 
 	\subsection{Subtração}
 	Para realizar as subtrações binárias, usaremos o complemento de 1 e complemento
@@ -245,8 +246,69 @@
 		\item[$\bar{B} + 1$]: Complemento de 2
 	\end{description}
 
+	\subsection{Multiplicação}
+	O algoritmo da multiplicação binária é semelhante a ídeia usada no decimal, 
+	e muito mais facil, pois os operandos é somente 0 e 1.\\
+	\\
+	Observe que se A tem \texttt{n} algarismos e B tem \texttt{m} algarismos
+	o produto $A * B$ terá no máximo, \texttt{n} + \texttt{m} algarismos.
+	
+	\subsection{Números Reais}
+	Como fica as operações nos números reais? como sempre, podemos nos inspirar na
+	base decimal, suponha os seguintes números: \\
+	\\
+	A = $a_{n-1} a_{n-2} ... a_1 a_0, a_{-1} ... a_{-k}$\\
+	B = $b_{n-2} b_{n-2} ... b_1 b_0, b_{-1} ... b_{-k}$\\
+	\\
+	se $a_{-k} \ne b_{-k}$, ou seja, se os valores depois da virgual de \texttt{a} 
+	forem diferentes da virgula de \texttt{b}. Na soma, subtração, e multiplicação
+	podemos	inicialmente ignorar a virgula, realizar a operação, logo em seguida, 
+	realocar a virgula \texttt{k} algarismos à direita.
 
+	\section{Representações númericas em computador digital}
+	Em um computador digital, quaquer informação (dados), em última instância
+	é representado por um número. Atualmente os números são representados em base 2
+	pela facilidade em fazer contas. Um computador digital possui espaço finito
+	para guardar informações e o processamento dessas informações é feito em grupos
+	de bits em vez de bit a bit, para uma melhor eficiência.\\
+	\\
+	Como o processamento desses dados(informações) é feito em grupos de bits, damos
+	um nome a esse grupo, que é chamado de \texttt{palavra de dado}, trata-se de uma
+	sequência de bits de tamanho fixo que é processada em conjunto. Uma palavra
+	por exemplo pode ter 16 bits ou 8 bits, depende...\\
+	\\
+	Um conjunto de 8 bits é chamado de 1 byte, com essa relação explicita de 
+	1 byte sendo 8 bits. Um sistema digital, pode padronizar o tamanho de suas 
+	\texttt{palavras}(operandos). Os mais comuns hoje são os processadores de 
+	64 bits	ou ainda os mais antigos de 32 bits, isso significa que na 
+	Unidade Lógica Aritmética \texttt{(ULA)} dentro do processador, 
+	os operandos podem ter no máximo 64 bits, ou 32 bits depende da arquitetura. 
+	veremos isso mais profundamente no futuro.\\
 
+	\subsection{Estudos de melhoria de processamento de dados}
+	Hoje existem pesquisadores tentando melhorar a capacidade de processamento, 
+	na computação clássica, uma melhor capacidade de processamento seria uma palavra
+	maior ou ainda o processamento paralelo de palavras. Existe a computação
+	quântica, que utiliza a sobreposição de estados nas particulas atômicas para
+	definir 0 ou 1, ou ainda os 2 ao mesmo tempo, gerando uma especie de 
+	processamento paralelo bem avançado, porém, probabilistico. 
+	Existem outros malucos, em outras áreas que pretendem futuramente 
+	usar sistemas orgânicos para realizar o processamento de informações. 
+	A melhora da capacidade de processamento dos dados na éra da informação 
+	é uma quebra de barreiras e uma evidente elevação da fronteira do conhecimento.
+	\\
+	\section{Representação Binária}
+	Podemos sistematizar a representação de números inteiros com \texttt{N} bits
+	da seguinte forma: $2^{n} - 1$. \\
+	\\
+	\textbf{Exemplo}: Com 3 bits podemos representar $2^{3} - 1$ números inteiros.
+			\begin{center} $2^{3} - 1 = 7$ \end{center}\\
+	\\
+	Com esta sistematização podemos prever o próximo número e os anteriores, 
+	da seguinte forma:\\
+	\\
+	O número atual é $2^{n} - 1$ o próximo seria: $2^{n}$, logo, o anterior
+	do atual é $2^{n} - 2$.
 
 	% Referências. 
 
