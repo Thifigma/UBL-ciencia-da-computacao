@@ -16,7 +16,7 @@ Os pilares da universidade consiste em:
 
 Este é o registro da minha trajetória na Universidade Brasileira Livre no curso de Ciência da Computação.
 
-	- Os registros das disciplinas será feito em latex. 
+- Os registros das disciplinas será feito em latex. 
 
 ## Turmas Atuais
 
