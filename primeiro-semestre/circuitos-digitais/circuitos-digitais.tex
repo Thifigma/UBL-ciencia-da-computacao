@@ -318,22 +318,108 @@
 	Se o número for um inteiro sem sinal, neste caso, basta adicionar os zeros
 	a esquerda até \texttt{n} ficar igual a \texttt{w}.
 	
-	\subsection{Números com sinais}
+		\subsection{Números com sinais}
 	Para fazermos representações de números negativos, precisamos reservar um espaço
 	na palavra para representar o sinal. Existem várias técnicas para fazer esta 
 	representação, como o sinal-magnitude, complementos de 1 e de 2, veremos
 	adiante.
 
-	\subsubsection{Sinal-Magnitude}
+		\subsubsection{Sinal-Magnitude}
 	O Sinal-Magnitude é a reserva do bit mais significativo da palavra, ou seja, 
 	o bit mais a esquerda, para representar o sinal do número: \\
 	\\
 	O sinal \textbf{+} é representado pelo bit: 0\\
 	O sinal \textbf{-} é representado pelo bit: 1\\
 	\\
-	\texttt{Exemplo}: Número = ${_0^1} a_{n-2} a_{n-3} ... a_1 a_0 $
+	\texttt{Exemplo}: A = ${_0^1}\;a_{n-2}\;a_{n-3}\;...\;a_1\;a_0$
 	
-
+	Agora imagine que o bit $_0^1$ é o bit de sinal, e queremos fazer a
+	extensão da palavra. Neste caso nós conservamos o bit mais
+	significativo mais a esquerda e acrescentamos com os zeros a esquerda.\\
+	\\
+	\texttt{Exemplo}: A = $(a_{n-1} a_{n-2} ... a_2 a_1 a_0)_2$, temos aqui
+	uma palavra de \texttt{n} bits, e queremos extender para \texttt{w} bits
+	sendo $\texttt{w} > \texttt{n}$\\
+	\\
+	logo, temos o seguinte: 
+	A = $(a_{n-1}\;0\;0\;0\;0\;...\;k\;a_{n-2}\;...\;a_2\;a_1\;a_0)_2$\\
+	\\
+	Essa técnica vale para qualquer sinal, seja positivo ou negativo.
+	
+		\subsubsection{Inclusões de sinais}
+	A inclusão de sinal trata-se de uma forma simples de converter uma 
+	representação binária sem sinal para uma representação com sinal e 
+	para realizar a conversão basta converter os níveis lógicos do número:\\
+	\\
+	\texttt{Exemplo}: Converter o número $2 - (\bar{0}10)$, aqui, vale ressaltar
+	que o bit destacado é a representação do sinal, neste caso, temos um 2 
+	positivo. Para termos o 2 negativo, invertemos os valores, ou seja: 
+	$101$. Ou seja, basta tirar o complemento de 1 da palavra. \\
+	\\
+	Palavra (010) $->$ Complemento de 1 $->$ (101), isso vale para qualquer número,
+	inclusive o zero.\\
+	\\
+	Deve-se tomar o devido cuidado quando for realizar operações com o 
+	complemento de 1, pode gerar confusões no percurso, por isso, vamos
+	exemplificar: \\
+	\\
+	Vamos considerar a seguinte subtração: (3 - 2)\\
+	\\
+	A = 3 = 011, aqui o bit 0 significa que o númeoro é positivo.\\
+	B = 2 = 010.\\
+	Tiramos o complemento de 1 do número B = 010\\
+	B = 2 = 010 = $(101)_c1$\\
+	\\
+	Agora sim, podemos fazer a soma A + (-B), ou seja: $011 - 101$\\
+	Inicialmente a conta parece não fazer muito sentido, porém, 
+	lembre-se que deve adicionar 1 no resultado da soma.\\
+	\\	
+	Usar o complemento de 1 para fazer a representações de sinais
+	se torna problemática, pois haverá duas representações para o
+	númeor zero, repare que temos o zero positivo: 000 e o
+	zero negativo: 111. Ter duas representações para um mesmo
+	número é algo que gera certo desconforto, por este motivo
+	é mais saudável aos olhos e um alívio a maquina usar o 
+	complemento de 2.\\
+	\\
+	As vantagens de se usar o complemento de 2 para representar os
+	sinais é que teremos a representação de mais 1 número e também
+	evitaremos duas representações para o número zero.\\
+	\\
+	As relações ficam da seguinte forma, para uma palavra de 3 bits.\\
+	\\
+	A - 000 = $0_{10}$\\
+	B - 001 = $+1_{10}$\\
+	C - 010 = $+2_{10}$\\
+	D - 011 = $+3_{10}$\\
+	\\
+	\texttt{Complemento de 2}\\
+	\\
+	A - 111 = $-1_{10}$\\
+	B - 110 = $-2_{10}$\\
+	C - 101 = $-3_{10}$\\
+	D - 100 = $-4_{10}$\\
+	\\
+	Apenas para enfatizar a diferença entre C1 e C2, deixo
+	abaixo como fica C1:\\
+	\\
+	\texttt{Complemento de 1}\\
+	A - 111 = $-0_{10}$\\
+	B - 110 = $-1_{10}$\\ 	
+	C - 101 = $-2_{10}$\\ 	
+	D - 100 = $-3_{10}$\\
+	\\
+	Observe que se a palavra estiver em representação de 
+	complemento de 2, devemos ignorar o primeiro digito
+	mais significativo, pois este indica o sinal,
+	devemos lembrar também que caso um número seja
+	negativo, deve-se primeiro fazer a conversão 
+	para complemento de dois para depois trocar a base, 
+	isto é fundamental!\\
+	\\
+	Umas das problemáticas para nós humanos é a comparação.
+	Repare que $(001_2)_{c2} > (101_2)_{c2}$ não é nada
+	intuitivo, porém, para o computador é indiferente.
 
 
 	% Referências. 
