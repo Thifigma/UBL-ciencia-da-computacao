@@ -302,13 +302,39 @@
 	da seguinte forma: $2^{n} - 1$. \\
 	\\
 	\textbf{Exemplo}: Com 3 bits podemos representar $2^{3} - 1$ números inteiros.
-			\begin{center} $2^{3} - 1 = 7$ \end{center}\\
-	\\
+			\begin{center} 
+				$2^{3} - 1 = 7$ \\
+			\end{center}
 	Com esta sistematização podemos prever o próximo número e os anteriores, 
-	da seguinte forma:\\
+	da seguinte forma: \\
 	\\
 	O número atual é $2^{n} - 1$ o próximo seria: $2^{n}$, logo, o anterior
 	do atual é $2^{n} - 2$.
+
+	\section{Extenções}
+	Imagine a seguinte situação, um número \texttt{A} com \texttt{n} bits, porém,
+	queremos fazer uma representação com \texttt{w} bits sendo \texttt{w > n}.\\
+	\\
+	Se o número for um inteiro sem sinal, neste caso, basta adicionar os zeros
+	a esquerda até \texttt{n} ficar igual a \texttt{w}.
+	
+	\subsection{Números com sinais}
+	Para fazermos representações de números negativos, precisamos reservar um espaço
+	na palavra para representar o sinal. Existem várias técnicas para fazer esta 
+	representação, como o sinal-magnitude, complementos de 1 e de 2, veremos
+	adiante.
+
+	\subsubsection{Sinal-Magnitude}
+	O Sinal-Magnitude é a reserva do bit mais significativo da palavra, ou seja, 
+	o bit mais a esquerda, para representar o sinal do número: \\
+	\\
+	O sinal \textbf{+} é representado pelo bit: 0\\
+	O sinal \textbf{-} é representado pelo bit: 1\\
+	\\
+	\texttt{Exemplo}: Número = ${_0^1} a_{n-2} a_{n-3} ... a_1 a_0 $
+	
+
+
 
 	% Referências. 
 
