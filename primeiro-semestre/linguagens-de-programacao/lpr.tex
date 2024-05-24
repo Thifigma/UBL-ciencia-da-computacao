@@ -113,11 +113,61 @@
 	linguagem possui um número alto de palavras reservadas, o programador
 	terá que usar da criatividade para atribuir nomes.\\
 	\\
-
+	\subsection{Endereços}
+	O endereço de uma variável, é o endereço de cécula de memória na qual
+	ela está associada. Em linguagens de programação o endereço da variável 
+	é geralmente associado ao valor esquerdo de uma sentença, lembrando que, 
+	é possivel que tenha tipos de variáveis que podem ser associadas a um mesmo 
+	endereço de memória. Quando mais de uma variável é usada para acessar um 
+	único endereço,	é necessário muito cuidado, pois, os valores podem ser 
+	alterados por uma atribuição, o que também pode prejudicar a legibilidade 
+	e manutençaõ do código. O momento no qual uma variável se associa a um
+	endereço é muito importante e diz muito sobre a linguagem usada.
+	
+	\subsection{Tipos e Valores}
+	O tipo de valor de uma variável, determina a faixa de valores que ela pode
+	armazenar e o conjunto de operações que podem ser realizadas para esse tipo.
+	Já o valor de uma variável se refere a o conteúdo da célula de memória. 
+	Uma célula de memória, pode ter um espaço pré-definido, como por exemplo 
+	1 byte, porém, são valores que podem não caber determinado dado, que pode 
+	ter mais que 1 byte, logo, é conveniente, que pensemos em células de memória, 
+	como espaços abstratos, que por sua vez, se adapta ao tamanho do dado.\\
+	\\
+	O valor da variável em muitos casos é chamado de lado direito.
 	
 
+	\subsection{Vinculações}
+	Vinculação é uma associação entre um atributo e uma entiedade, para exemplificar
+	pense no simbolo da operação de soma, \texttt{'automaticamente'}, sabemos que 
+	é o simbolo de \texttt{( + )}, esse é um tipo de vinculação, outro exemplo seria
+	uma declaração de tipo em C, como por exemplo \textbf{int} a, sabemos que a 
+	variável a está associada a o tipo de dado inteiro, que por sua vez, está
+	vinculado a uma faixa de valores.\\
+	\\
+	A grande questão é quando essas vinculações ocorrem, na sentença: \textbf{int} a
+	o valor \textbf{int} será associado a uma faixa de valores em tempo de 
+	projeto da linguagem, ou seja quando estivermos projetando a linguagem, 
+	reservaremos a palavra \textbf{int} e a associaremos uma faixa de valor. 
+	Já o valor \textbf{a}, é associado a o valor inteiro em tempo de compilação, 
+	no caso da linguagem C.\\
+	\\
+	O entendimento completo de tempos de vinculação é fundamental para um real
+	entendimento do funcionamento semântico de uma linguagem de programação.
+	
+	\subsubsection{\hspace{1cm}Vinculação Dinâmica}
+	Este tipo de vinculação é feito quando uma célula de memória, recebe um dado,
+	o tipo dado determinará o tipo da váriavel, ou seja, o tipo variável é 
+	determinada pelo seu valor.
 
-
+	\subsubsection{\hspace{1cm}Vinculação Estática}
+	Este tipo de vinculação é feito quando determinamos o tipo de dado que 
+	uma célula de memória vai receber, ou seja, o tipo da variável é determinado
+	antes de receber o dado.\\
+	\\
+	A principal diferença entre elas é que a dinâmica da mais flexibilidade 
+	para o programador, enquanto a estática, define a variável aquele tipo e 
+	não pode mais ser alterada em tempo de execução, o que pode, evitar falhas
+	no programa.
 
 
 \end{document}
