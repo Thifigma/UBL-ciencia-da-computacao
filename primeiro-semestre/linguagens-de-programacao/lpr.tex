@@ -154,12 +154,12 @@
 	O entendimento completo de tempos de vinculação é fundamental para um real
 	entendimento do funcionamento semântico de uma linguagem de programação.
 	
-	\subsubsection{\hspace{1cm}Vinculação Dinâmica}
+		\subsubsection{\hspace{1cm}Vinculação Dinâmica}
 	Este tipo de vinculação é feito quando uma célula de memória, recebe um dado,
 	o tipo dado determinará o tipo da váriavel, ou seja, o tipo variável é 
 	determinada pelo seu valor.
 
-	\subsubsection{\hspace{1cm}Vinculação Estática}
+		\subsubsection{\hspace{1cm}Vinculação Estática}
 	Este tipo de vinculação é feito quando determinamos o tipo de dado que 
 	uma célula de memória vai receber, ou seja, o tipo da variável é determinado
 	antes de receber o dado.\\
@@ -168,6 +168,42 @@
 	para o programador, enquanto a estática, define a variável aquele tipo e 
 	não pode mais ser alterada em tempo de execução, o que pode, evitar falhas
 	no programa.
+	
+	\section{Tempo de vida de variáveis}
+	Uma variável deve ser associada a uma céula de memória, essa célula deve
+	ser obtida de um conjunto de células disponíveis, esse processo é chamado
+	de \texttt{alocação}, quando disponibilizamos novamente essa célula
+	para o conjunto de células disponiveis, esse processo chamamos de
+	\texttt{liberação}. Dizemos que o tempo de vida de uma variável é 
+	a diferença entre o tempo que ela foi liberada e alocada, ou seja, 
+	enquanto ela está vinculada a uma célula de memória.\\
+	\\
+	Existem diversos tipos de vinculações e elas podem ocorrer em diferentes
+	tempos, como por exemplo as variáveis \texttt{estáticas}, que são 
+	vinculadas a uma célula de memória antes do inicio da execução do programa,
+	ou seja, em tempo de compilação, isso pode gerar vantagens e desvantagens.
+	Uma vantagem seria uma menor sobrecarga de tempo para alocações de memória
+	em tempo de execução, uma desvantagem muito grande é a impossibilidade
+	de criar funções recursivas.\\
+	\\
+	Existem outras variáveis que chamamos de dinâmicas, pois são vinculadas
+	em tempo de execução e só podem ser referênciadas por ponteiros. 
+	Esses tipos de variáveis devem ser alocadas e liberadas por instruções
+	explicitas e em tempo de execução, em C por exemplo, temos a função 
+	\texttt{malloc}	que faz esse tipo de alocação. \texttt{Reforçamos que é dever
+	do programador liberar a memória alocada depois de alocada.}\\
+	\\
+	O principal problema em usar esse tipo de alocação é o cuidado com o 
+	gerenciamento de memória da \texttt{heap} que se não for administrado
+	da forma correta, podem ocasionar \texttt{overflow} entre outros erros.
 
+	\section{Escopo}
+	Um dos fatores para o entendimento das variáveis é o escopo. Uma variável
+	é visível se ela pode ser referenciada ou atribuida em sentenças.
+	Muitas linguagens permitem que sejam criados novos escopos estáticos no
+	meio do código executável, esse escopo permite que tenha suas próprias
+	variáveis locais, cujo escopo é restrito no bloco. Uma variável é local
+	quando ela é alocada em um escopo.\\
+	\\
 
 \end{document}
