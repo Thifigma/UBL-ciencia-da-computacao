@@ -231,6 +231,15 @@
 	bits, basta adicionar o zero a esquerda do número e ter memória suficiente 
 	para a representação.
 
+	Em complemento de dois, a verificação do overflow, pode ser verificada
+	analisando o bit do sinal do resultado e comparar com o bit do sinal
+	do número que está sendo adicionado.\\
+	\\
+	Um \texttt{Overflow / Underflow} só ocorre quando somado dois números de 
+	mesmo sinal, seja eles positivos ou negativos. Qunado temos este caso, 
+	devemos analisar se o resultado tem o mesmo sinal dos operadores, se for
+	diferente, temos um \texttt{Overflow / Underflow}.
+
 	\subsection{Subtração}
 	Para realizar as subtrações binárias, usaremos o complemento de 1 e complemento
 	de 2, para evitar, detalhamentos adicionais.\\
@@ -420,7 +429,26 @@
 	Umas das problemáticas para nós humanos é a comparação.
 	Repare que $(001_2)_{c2} > (101_2)_{c2}$ não é nada
 	intuitivo, porém, para o computador é indiferente.
-
+	
+		\subsubsection{Extensão em complemento de 2}
+	Para representar uma palavra com sinal magnitude
+	podemos apenas conservar o bit mais significativo, neste caso
+	em complemento de dois, a técnica se altera, considere o seguinte:\\
+	\\
+	A = $((a_{n-1} \; a_{n-2} \; ... \; a_{2} \; a_{1} \; a_{0})_2)_{c2}$\\
+	\\
+	O número A têm \texttt{n} bits e agora queremos \texttt{w} bits
+	$\setminus w > n$\\
+	\\
+	Neste caso, podemos apenas pegar o bit mais sinigicativo e extender
+	\texttt{w} bits a esquerda\\
+	\\
+	A = $((a_{w} \; ... \;a_{n-1}\;a_{n-1}\;a_{n-1}\;a_{n-1}\;a_{n-1} 
+	\; a_{n-2} \; ... \; a_{2} \; a_{1} \; a_{0})_2)_{c2}$\\
+	\\
+	Perceba que esse tipo de extensão é ligeiramente diferente das demais.
+	Por fim, sempre que formos adicionar um sinal, na representação do
+	número, precisaremos de um bit a mais para representar o sinal.
 
 	% Referências. 
 
