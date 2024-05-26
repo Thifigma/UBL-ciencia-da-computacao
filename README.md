@@ -1,6 +1,17 @@
-# UBL-ciencia-da-computacao
+# UBL - Ciencia da Computacao
 
-<img src = "https://github.com/Universidade-Livre/universidade-livre.github.io/raw/main/docs/imgs/meta/meta-twtbanner.jpg?raw=true" border = 0> 
+##
+<h1>👉 Bem-vindo(a) a Universidade Brasileira Livre!</h1>
+<a href="https://ulivre.dev/" rel="external">
+  <img style="width:100%;" src="https://github.com/Universidade-Livre/universidade-livre.github.io/blob/main/docs/imgs/meta/meta-twtbanner.jpg?raw=true">
+</a>
+
+<p align="center">
+  <a href="https://discord.gg/eXUBTY6HAu" target="_blank"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
+</p>
+
+---
+
 
 ## Sobre a Universidade Brasileira Livre (UBL)
 
@@ -12,11 +23,17 @@ Os pilares da universidade consiste em:
 - Gratuito
 - Comunidade Voluntária
 
-[Saber mais](https://ulivre.dev/)
+<p align="center"> Cola no discord! </p>
+
+<p align="center">
+  <a href="https://discord.gg/eXUBTY6HAu" target="_blank"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
+</p>
+
+##
 
 Este é o registro da minha trajetória na Universidade Brasileira Livre no curso de Ciência da Computação.
 
-- Os registros das disciplinas será feito em latex. 
+- Os registros das disciplinas será feito em LaTex. 
 
 ## Turmas Atuais
 
