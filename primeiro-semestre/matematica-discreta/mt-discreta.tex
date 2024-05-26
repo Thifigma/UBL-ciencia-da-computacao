@@ -19,6 +19,7 @@
 	\end{abstract}
 
 	\section{Lógica Proposicional}
+
 	Uma proposição é uma sentença que pode assumir valores \texttt{Verdadeiro} 
 	ou \texttt{Falso}, não é necessário que se saiba o valor da sentença, apenas
 	que seja possivel atribuir algum desses dois valores.\\
@@ -30,19 +31,21 @@
 	proposição, dês de que os valores das variáveis sejam definidos.
 	
 		\subsection{Conectivos lógicos e proposições compostas}
-		Conectivos lógicos podem ser entendidos como: \texttt{e}, 
-		\texttt{ou}, \texttt{não}, \texttt{se ... então}. Esses 
-		conectivos permitem formar proposições compostas.\\
-		\\
-		Uma proposição composta, possui na sua estrutura, composições
-		simples ou \texttt{atômica}.
+
+	Conectivos lógicos podem ser entendidos como: \texttt{e}, \texttt{ou}, 
+	\texttt{não}, \texttt{se ... então}. Esses conectivos permitem formar 
+	proposições compostas.\\
+	\\
+	Uma proposição composta, possui na sua estrutura, composições simples ou 
+	\texttt{atômica}.
 
 		\subsection{Notação para cálculo proposicional}
-		A lógica proposicional é um formalismo que nos permite
-		determinar o valor lógico das proposições. As letras minúsculas
-		será a representação das proposições. Abaixo descreveremos
-		os sinais dos conectivos lógicos \texttt{(operadores)}.\\
-		\\
+
+	A lógica proposicional é um formalismo que nos permite determinar o valor 
+	lógico das proposições. As letras minúsculas será a representação das 
+	proposições. Abaixo descreveremos os sinais dos conectivos lógicos 
+	\texttt{(operadores)}.\\
+	\\
 		\begin{description}
 			\item[Conjunção]: $p \land q$
 			\item[Disjunção]: $p \lor q$
@@ -52,8 +55,8 @@
 			\item[Disjunção Exclusiva]: $p \oplus q$
 		\end{description}
 
-		A implicação é um dos mais importantes conectivos da lógica 
-		matemática. Descreve-se da seguinte forma: 
+	A implicação é um dos mais importantes conectivos da lógica matemática. 
+	Descreve-se da seguinte forma: 
 
 		\begin{center}
 			\texttt{Hipotese, premissa ou antecedente} 
@@ -83,5 +86,64 @@
 				\hline
 			\end{tabular}
 		\end{table}
+	
+		\subsection{Tautologia e Contradições}
+	Tautologia é uma proposição que é sempre verdadeira, para qualquer valor
+	atômico que a componha.\\
+	\\
+	Pense na seguinte sentença: $P \lor \lnot p$, neste caso, \texttt{p}
+	pode assumir qualquer valor que sua resposta será sempre verdadeira e
+	isso é uma tautologia. Veremos como isso é aplicado diretamente na
+	computação na disciplina de circuitos digitais em algebra boolena.\\
+	\\
+	Já a contradição é uma proposição composta que é sempre falsa, para
+	qualquer valor atômico que a componha.\\
+	\\
+	Análogo a sentença da tautologia, porém com outro operador podemos
+	exemplificar a contradição, observe: $p \land \lnot p$, ou seja, 
+	p pode assumir qualquer valor, que sua proposição será sempre falsa.
+	
+		\subsection{Equivalência Lógica}
+	Duas proposições são ditas equivalentes se possuirem valores lógicos iguais.
+	Por exemplo: $p \Longleftrightarrow \lnot(\lnot p)$ ou seja, operações
+	com valores tautológicos, chegam a equivalências.\\
 		
+		\subsubsection{Leis de equivalência}
+	
+	\texttt{Leis do elemento identidade}:\\
+	$p \land V \rightarrow p$\\
+	$p \lor F \rightarrow p$\\
+	$p \leftrightarrow V \rightarrow p$\\
+	$p \oplus F \rightarrow p$\\	
+	\\
+	\texttt{Leis da idempotência}:\\
+	$p \land p \rightarrow p$\\
+	$p \lor p \rightarrow p$\\
+	\\
+	\texttt{Leis da dominação}:\\
+	$p \land V \rightarrow V$\\
+	$p \lor F \rightarrow F$\\
+	\\
+	\texttt{Leis da comutatividade}:\\
+	$p \land q \rightarrow q \land p$\\
+	$p \lor q \rightarrow q \lor p$\\
+	$p \oplus q \rightarrow q \oplus p$\\
+	$p \leftrightarrow q \rightarrow q \leftrightarrow p$\\
+	\\
+	\texttt{Lei da redução ao absurdo}:\\
+	$ -p \longrightarrow q \Rightarrow (p \land \lnot q) \longrightarrow F)$\\
+	\\
+	
+	Existem outras leis como a de \texttt{De Morgan} que vai ser vista com
+	profundidade na disciplina de circuitos digitais e não será comentada aqui.
+	Outras como associatividade e distributivas também não será vista, pois, 
+	segue a mesma lógica que operações aritméticas.
+
+		\subsection{Síntese de proposições}
+
+
+
+
+
+
 \end{document}
