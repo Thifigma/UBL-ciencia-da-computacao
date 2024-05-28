@@ -488,6 +488,58 @@
 		\subsection{Operações Básicas}
 	Já visto em matemática discreta, porém, iremos reforçar:\\
 	\\
+	\texttt{Conjunção ou também Multiplicação booleana:}\\
+	\hspace{1cm} $(X\;e\;Y) \; (X\;and\;Y)\;(X \land Y)\;ou\;ainda\;(X . Y)$\\
+	\\
+	\texttt{Disjunção ou também Produto booleano:}\\
+	\hspace{1cm} $(X\;ou\;Y) \; (X\;or\;Y) \; (X \lor Y)\;ou\;ainda\;(X + Y)$\\
+	\\
+	\texttt{Negação ou também Complemento:}\\
+	\hspace{1cm} $(Nao X) \; (not X) \; (\lnot X)\;ou\;ainda\;(\bar{X})$\\
+	\\
+	Todas essas expressões são também representadas em linguagens de 
+	programação.\\
+		
+		\subsection{Tabelas Verdade}
+	Não nos aprofundaremos tanto nas tabelas verdades, são facilmente encontradas
+	e também será tratada melhor em matemática discreta, aqui nos basta saber o
+	seguinte: \\
+	\\
+	\textbf{Conjunção ($x \land y$):} Verdadeiro se e somente se (x,y) forem
+	verdadeiros.\\
+	\\
+	\textbf{Disjunção ($x \lor y$):} Verdadeiro se pelo menos um operador (x ou y) 
+	for verdadeiro.\\
+	\\
+	\textbf{Negação ($\bar{x}$):} Verdadeiro se e somente se (x) for falso.\\
+	\\
+	\textbf{Disjunção Exclusiva($x \oplus y$):} Verdadeiro se e somente se
+	apenas um dos operandos for verdadeiro. Se os dois operandos forem verdadeiros
+	o valor resultado será falso, pois, só um pode ser verdadeiro.\\
+	\\
+
+		\subsection{Expressões Lógicas}
+	Como na álgebra comum, podemos combinar as operações, formando as expressões
+	lógicas. O resultaod de uma expressão lógica pode ser obtido aplicando-se 
+	cada operação, respeitando a ordem de precedência dos operadores.\\
+	\\
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{|c|c|}
+				\hline
+				Operador & Precedência\\ \hline
+
+				$\lnot$ & 1 \\
+				$\land$ & 2 \\
+				$\lor, \oplus$ & 3 \\
+				$\longrightarrow, \longleftrightarrow$ & 4 \\
+				\hline
+			\end{tabular}
+		\end{table}
+	\\
+	Aqui vamos ter a convenção de que o valor verdadeiro é: (1) e o valor
+	falso é: (0).\\
+	\\
 
 
 
