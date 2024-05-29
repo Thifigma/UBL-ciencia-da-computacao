@@ -489,7 +489,7 @@
 	Já visto em matemática discreta, porém, iremos reforçar:\\
 	\\
 	\texttt{Conjunção ou também Multiplicação booleana:}\\
-	\hspace{1cm} $(X\;e\;Y) \; (X\;and\;Y)\;(X \land Y)\;ou\;ainda\;(X . Y)$\\
+	\hspace{1cm} $(X\;e\;Y) \; (X\;and\;Y)\;(X \land Y)\;ou\;ainda\;(X * Y)$\\
 	\\
 	\texttt{Disjunção ou também Produto booleano:}\\
 	\hspace{1cm} $(X\;ou\;Y) \; (X\;or\;Y) \; (X \lor Y)\;ou\;ainda\;(X + Y)$\\
@@ -540,6 +540,77 @@
 	Aqui vamos ter a convenção de que o valor verdadeiro é: (1) e o valor
 	falso é: (0).\\
 	\\
+	\textbf{Exemplo de expressão}: 
+	\\
+	$\bar{1} \lor (0 \land 1)$\\
+	$ \bar{1} \lor (0)$\\
+	$0 \lor 0$\\
+	$0$\\
+	\\
+		\subsubsection{Variáveis Booleanas}
+	Como na álgebra comum, podemos deixar valores indeterminados, esse valores
+	são chamados de variáveis booleanas.\\
+	\\
+	\textbf{Exemplo}: $\bar{x} \land y \lor x \land \bar{y}$\\
+	Agora podemos substituir os valores de \texttt{x} e \texttt{y} e calcular
+	a expressão.\\
+	\\
+		\subsection{Tabelas Verdade de Expressões Lógicas}
+
+	Podemos construir as tabelas verdades de expressões lógicas, atribuindo
+	todos os valores possiveis às variáveis.\\
+	\\
+	Considere a seguinte expressão: $\lnot{X} \land Y \lor X \land \lnot{Y}$ \\
+	\\
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			X & Y & $\lnot{X}$ & $\lnot{Y}$ & $\lnot X \land Y$
+			& $X\land \lnot Y$ \\ \hline
+
+			0 & 0 & 1 & 1 & $1 \land 0 = 0$ & $0 \land 1 = 0$\\
+			0 & 1 & 1 & 0 & $1 \land 1 = 1$ & $0 \land 0 = 0$\\
+			1 & 0 & 0 & 1 & $0 \land 0 = 0$ & $1 \land 1 = 1$\\
+			1 & 1 & 0 & 0 & $0 \land 1 = 0$ & $1 \land 0 = 0$\\
+			\hline
+		\end{tabular}
+	\end{table}
+
+	Agora se nós juntarmos as duas últimas expressões, teremos o seguinte:\\
+	\\
+	$(\lnot X \land Y) \lor (X \land \lnot Y)$, essa expressão é a já vista
+	\textbf{Disjunção exclusiva}. A expressão toda pode ser escrita da seguinte 
+	forma: $(X \oplus Y)$, ou seja, a expressão é verdadeira, quando somente um 
+	dos valores é verdadeiro.
+
+		\subsection{Funções Lógicas}
+	
+	Uma função lógica pode ser definida como um conjunto de entradas lógicas
+	que terá como resultante uma expressão que será verdadeira ou falsa.\\
+	Considere a seguinte expressão: F(A, B, C) = $A \lor (\bar{B} \land C)$\\
+	\\
+	Podemos observar na função F, que se o valor A for 1, a expressão 
+	$(\bar{B} \land C)$ é insignificante, observe que $(A \lor (N_{0,1}))$ 
+	o valor de N pode assumir 1 ou 0 que o valor da função continua sendo 1, 
+	pois, $(1 \lor N)$ é 1.\\
+	\\
+	
+	Existe a possibilidade de extrairmos uma função lógica de uma tabela 
+	verdade fornecida, observe:\\
+	\\
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			x & y & f(x,y)\\ \hline
+
+			0 & 0 & 1 \\ \hline
+			0 & 1 & 0 \\ \hline
+			1 & 0 & 0 \\ \hline
+			1 & 1 & 1 \\ \hline 
+		\end{tabular}
+	\end{table}
 
 
 
