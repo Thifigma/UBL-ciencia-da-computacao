@@ -450,6 +450,170 @@
 	Por fim, sempre que formos adicionar um sinal na representação do
 	número, precisaremos de um bit a mais para representar o sinal.
 
+		\section{Álgebra Booleana}
+
+	A álgebra booleana foi descrita e conceituada por George Boole. 
+	Em 1854, publicou seu trabalho no qual fundamenta a álgebra que 
+	permite a construção de computadores modernos.\\
+	\\
+	Formalmente, a Álgebra Booleana é um sistema matemático composto 
+	por um conjunto de elementos, e que se utiliza somente de dois 
+	algarismos para representar os números ou as proposições: 
+	O zero (0) e o um (1). Esse sistema de numeração é chamado binário 
+	e tem grande utilidade na Lógica e na Teoria dos Conjuntos.\\
+	\\
+	Esse assunto é discutido formalmente na matemática discreta, 
+	aqui, pretendemos focar em útilidades da álgebra para aplicações
+	em ciência da computação, como por exemplo, funções, fatorações( 
+	\texttt{Mapas de Karnaugh}), alguns postulados até chegarmos em 
+	circuitos combinacionais e por fim na maquina de estados.\\
+	\\
+	Pretendo discurtir ligeiramente automatos finitos, maquina de turing 
+	e linguagens formais. São assuntos nos quais me geram 
+	grande entusiasmo.\\
+
+		\subsection{Principios Básicos da Álgebra Booleana}
+	
+	São dois príncipios fundamentais:\\
+
+	\begin{itemize}
+		\item \texttt{Princípio da não contradição}: Uma proposição não pode 
+			ser \textbf{verdadeira} e \textbf{falsa};\\
+		\item \texttt{Princípio do terceiro excluído}: Uma proposição só pode
+			assumir um dos valores possíveis: ou é verdadeira ou é falsa, 
+			excluindo-se uma terceira hipótese.\\
+	\end{itemize}
+
+
+		\subsection{Operações Básicas}
+	Já visto em matemática discreta, porém, iremos reforçar:\\
+	\\
+	\texttt{Conjunção ou também Multiplicação booleana:}\\
+	\hspace{1cm} $(X\;e\;Y) \; (X\;and\;Y)\;(X \land Y)\;ou\;ainda\;(X * Y)$\\
+	\\
+	\texttt{Disjunção ou também Produto booleano:}\\
+	\hspace{1cm} $(X\;ou\;Y) \; (X\;or\;Y) \; (X \lor Y)\;ou\;ainda\;(X + Y)$\\
+	\\
+	\texttt{Negação ou também Complemento:}\\
+	\hspace{1cm} $(Nao X) \; (not X) \; (\lnot X)\;ou\;ainda\;(\bar{X})$\\
+	\\
+	Todas essas expressões são também representadas em linguagens de 
+	programação.\\
+		
+		\subsection{Tabelas Verdade}
+	Não nos aprofundaremos tanto nas tabelas verdades, são facilmente encontradas
+	e também será tratada melhor em matemática discreta, aqui nos basta saber o
+	seguinte: \\
+	\\
+	\textbf{Conjunção ($x \land y$):} Verdadeiro se e somente se (x,y) forem
+	verdadeiros.\\
+	\\
+	\textbf{Disjunção ($x \lor y$):} Verdadeiro se pelo menos um operador (x ou y) 
+	for verdadeiro.\\
+	\\
+	\textbf{Negação ($\bar{x}$):} Verdadeiro se e somente se (x) for falso.\\
+	\\
+	\textbf{Disjunção Exclusiva($x \oplus y$):} Verdadeiro se e somente se
+	apenas um dos operandos for verdadeiro. Se os dois operandos forem verdadeiros
+	o valor resultado será falso, pois, só um pode ser verdadeiro.\\
+	\\
+
+		\subsection{Expressões Lógicas}
+	Como na álgebra comum, podemos combinar as operações, formando as expressões
+	lógicas. O resultaod de uma expressão lógica pode ser obtido aplicando-se 
+	cada operação, respeitando a ordem de precedência dos operadores.\\
+	\\
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{|c|c|}
+				\hline
+				Operador & Precedência\\ \hline
+
+				$\lnot$ & 1 \\
+				$\land$ & 2 \\
+				$\lor, \oplus$ & 3 \\
+				$\longrightarrow, \longleftrightarrow$ & 4 \\
+				\hline
+			\end{tabular}
+		\end{table}
+	\\
+	Aqui vamos ter a convenção de que o valor verdadeiro é: (1) e o valor
+	falso é: (0).\\
+	\\
+	\textbf{Exemplo de expressão}: 
+	\\
+	$\bar{1} \lor (0 \land 1)$\\
+	$ \bar{1} \lor (0)$\\
+	$0 \lor 0$\\
+	$0$\\
+	\\
+		\subsubsection{Variáveis Booleanas}
+	Como na álgebra comum, podemos deixar valores indeterminados, esse valores
+	são chamados de variáveis booleanas.\\
+	\\
+	\textbf{Exemplo}: $\bar{x} \land y \lor x \land \bar{y}$\\
+	Agora podemos substituir os valores de \texttt{x} e \texttt{y} e calcular
+	a expressão.\\
+	\\
+		\subsection{Tabelas Verdade de Expressões Lógicas}
+
+	Podemos construir as tabelas verdades de expressões lógicas, atribuindo
+	todos os valores possiveis às variáveis.\\
+	\\
+	Considere a seguinte expressão: $\lnot{X} \land Y \lor X \land \lnot{Y}$ \\
+	\\
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			X & Y & $\lnot{X}$ & $\lnot{Y}$ & $\lnot X \land Y$
+			& $X\land \lnot Y$ \\ \hline
+
+			0 & 0 & 1 & 1 & $1 \land 0 = 0$ & $0 \land 1 = 0$\\
+			0 & 1 & 1 & 0 & $1 \land 1 = 1$ & $0 \land 0 = 0$\\
+			1 & 0 & 0 & 1 & $0 \land 0 = 0$ & $1 \land 1 = 1$\\
+			1 & 1 & 0 & 0 & $0 \land 1 = 0$ & $1 \land 0 = 0$\\
+			\hline
+		\end{tabular}
+	\end{table}
+
+	Agora se nós juntarmos as duas últimas expressões, teremos o seguinte:\\
+	\\
+	$(\lnot X \land Y) \lor (X \land \lnot Y)$, essa expressão é a já vista
+	\textbf{Disjunção exclusiva}. A expressão toda pode ser escrita da seguinte 
+	forma: $(X \oplus Y)$, ou seja, a expressão é verdadeira, quando somente um 
+	dos valores é verdadeiro.
+
+		\subsection{Funções Lógicas}
+	
+	Uma função lógica pode ser definida como um conjunto de entradas lógicas
+	que terá como resultante uma expressão que será verdadeira ou falsa.\\
+	Considere a seguinte expressão: F(A, B, C) = $A \lor (\bar{B} \land C)$\\
+	\\
+	Podemos observar na função F, que se o valor A for 1, a expressão 
+	$(\bar{B} \land C)$ é insignificante, observe que $(A \lor (N_{0,1}))$ 
+	o valor de N pode assumir 1 ou 0 que o valor da função continua sendo 1, 
+	pois, $(1 \lor N)$ é 1.\\
+	\\
+	
+	Existe a possibilidade de extrairmos uma função lógica de uma tabela 
+	verdade fornecida, observe:\\
+	\\
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			x & y & f(x,y)\\ \hline
+
+			0 & 0 & 1 \\ \hline
+			0 & 1 & 0 \\ \hline
+			1 & 0 & 0 \\ \hline
+			1 & 1 & 1 \\ \hline 
+		\end{tabular}
+	\end{table}
+
+
+
 	% Referências. 
 
 	\bibliographystyle{apalike}
