@@ -597,7 +597,8 @@
 	\\
 	
 	Existe a possibilidade de extrairmos uma função lógica de uma tabela 
-	verdade fornecida, observe:\\
+	verdade fornecida será visto com mais detalhe adiante, por enquanto,
+	considere a seguinte tabela:\\
 	\\
 	\begin{table}[ht]
 		\centering
@@ -612,7 +613,83 @@
 		\end{tabular}
 	\end{table}
 
+	Observe que as variáveis (x, y) quando assumem os valores 0 e 0
+	o resultado da função é 1. O mesmo ocorre quando assume os valores
+	1 e 1, ou seja, o resultado é sempre contrário a $x \oplus y$, logo 
+	temos que a expressão da função F(x,y) é $\lnot (x \oplus y)$.
 
+		\subsection{Regras Básicas da Álgebra Booleana}
+
+	Usando as regras da álgebra booleana é possivel simplificar expressões.
+	Todas as regras básicas aqui a serem descritas podem ser demonstradas 
+	construindo-se as duas tabelas verdades das expressões em ambos os
+	lados da equivalências.\\
+
+
+			Propiedade | OU | E \\ 
+	\\
+	Identidade: $(x \lor 1 = 1)$ | $(x \land 0 = 0)$ \\
+	\\
+	Elemento Neutro: $(x \lor 0 = 0)$ | $(x \land 1 = 0)$ \\
+	\\
+	Idempotência: $(x \lor x = x)$ | $(x \land x = x)$ \\ 
+	\\
+	Involução: $(\lnot(\lnot x) = x)$ | $(\lnot(\lnot x) = x)$ \\ 
+	\\
+	Complemento: $(x \lor \bar{x} = 1)$ | $(x \land \bar{x} = 0)$ \\ 
+	\\
+	Comutatividade: $(x \lor y = y \lor x)$ | $(x \land y = y \land x)$ \\
+	\\
+	Associatividade: $((x \lor y) \lor z = x \lor (y \lor z))$ | 
+	$((x \land y) \land z = x \land (y \land z))$ \\
+	\\
+	Cobertura: $(x \land (x \lor y) = x)$ | $(x \lor (x \land y) = x)$ \\
+	\\
+	Combinação: $((x \land y) \lor (x \land \bar{y}) = x)$ | 
+	$((x \lor y) \land (x /\lor \bar{y}) = x)$ \\
+	\\
+	Consenso: $((x \land y) \lor (\bar{x} \land z) \lor (y \land z) = 
+	(x \land y) \lor (\bar{x} \land z))$ | 
+	$((x \lor y) \land (\bar{x} \lor z) \land (y \lor z) = 
+	(x \lor y) \land (\bar{x} \lor z))$ \\
+	\\
+	Lei de Morgan: $(\lnot(x \lor y) = \bar{x} \lor \bar{y})$ | 
+	$(\lnot(x \land y) = \bar{x} \lor \bar{y})$ \\
+
+		\subsection{Introdução a Indução Lógica}
+	
+	Para se compreender formalmente como funciona as técnicas de indução
+	é interessante que se tenha consolidado os conhecimentos em técnicas 
+	de demonstrações por exaustão, esse contéudo será visto de forma exaustiva 
+	na disciplina de matemática discreta. Aqui iremos apenas introduzir a 
+	técnica de indução para que se possa demonstrar algumas simplificações 
+	das nossas expressões.\\
+		
+		\subsubsection{Princípio da Indução Matemática}
+	
+	Considere uma sentença \texttt{P()} que quando aplicada a uma variável 
+	\texttt{n}, possa ser considerada \textbf{Verdadeira} ou \textbf{Falsa}.
+	Inicialmente a dependender da sentença P, ela pode ser verdadeira, porém,
+	como poderiamos provar que a sentençã P é realemnte verdadeira para todo
+	conjunto da variável \texttt{(N)}. Para isso usa-se o seguinte ideia:\\
+	\\
+	Sempre que a sentença \texttt{P} aplicada a uma variável N que pertence a um
+	determinado conjunto é \textbf{verdadeira}, saberemos que para todo
+	e qualquer outro elemento pertencente a este conjunto a sentença \texttt{p}
+	será verdadeira.\\
+	\\
+	Formalmente temos o seguinte: $(\forall n \in$ (conjunto qualquer))
+	a sentença \textbf{P(n)} é verdade. \\
+	\\
+	Para tanto precisamos das seguintes provas: \\
+	\\
+	Provar que a sentença P para algum N do conjunto é verdade.\\
+	\\
+	Supor que para algum K $\in$ conjunto qualquer, 
+	a sentença \textbf{P(k)} é verdade.\\
+	\\
+	Provar que \textbf{P(K + 1)} é verdade.
+	
 
 	% Referências. 
 
