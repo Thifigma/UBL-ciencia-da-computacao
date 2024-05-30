@@ -198,14 +198,37 @@
 	gerenciamento de memória da \texttt{heap} que se não for administrado
 	da forma correta, podem ocasionar \texttt{overflow} entre outros erros.
 
-		\section{Escopo}
+		\section{Escopos}
 	
 	Um dos fatores para o entendimento das variáveis é o escopo. Uma variável
-	é visível se ela pode ser referenciada ou atribuida em sentenças.
-	Muitas linguagens permitem que sejam criados novos escopos estáticos no
-	meio do código executável, esse escopo permite que tenha suas próprias
-	variáveis locais, cujo escopo é restrito no bloco. Uma variável é local
-	quando ela é alocada em um escopo.\\
+	é visível se ela pode ser referenciada ou atribuida em sentenças.\\
 	\\
+	Muitas linguagens permitem que sejam criados novos escopos no
+	meio do código, esse escopo permite que tenha suas próprias variáveis locais, 
+	cujo escopo é restrito no bloco. Uma variável é local quando ela é alocada 
+	em um escopo.\\
+	\\
+		\subsection{Escopo Estático}
+	O escopo estático é caracteristica comum de determinadas linguagens 
+	imperativas, como C e Pascal. Existem dois tipos de escopos estáticos:
+	Aqueles nos quais podem se criar funções dentro de funções e as que não
+	podem. Outra caracteristica desse tipo de escopo é o acesso a variáveis,
+	que deve ser feito considerando o escopo \texttt{(Global ou Local)}. 
+	Também deve-se tomar cuidado com a substituição quando possuem o mesmo
+	nome. Aqui também tem a questão do custo para acessar variáveis de escopos
+	distantes, pois, só será possivel passando a variável por referência, 
+	o que pode gerar algum custo, se o escopo estiver muito longe da raiz.
+		
+		\subsection{Escopo Dinâmico}
+	A principal diferença com o escopo estático é que no escopo dinâmico 
+	quando um subprograma é acionado, todos os seus descendentes também 
+	terão suas variáveis possiveis de acesso, isso pode gerar facilidades
+	como também complicações, a variável é definida junto com seu escopo
+	em tempo de execução. A variável será acessivel a qualquer outro 
+	subprograma, independente da proximidade dos subprogramas na árvore
+	de chamadas.
+
+
+	
 	
 \end{document}
