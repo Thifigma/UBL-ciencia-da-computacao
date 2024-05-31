@@ -103,7 +103,7 @@
 	reconheça.\\
 	\\
 
-	\subsection{Nomes}
+		\subsection{Nomes}
 	Aqui vou pular a parte de nomeação de variáveis, pois foi exaustivamente
 	tratada na disciplina de introdução a ciência da computação. Nos restringiremos
 	a tratar das palavras reservadas e o significado delas.\\
@@ -113,7 +113,8 @@
 	linguagem possui um número alto de palavras reservadas, o programador
 	terá que usar da criatividade para atribuir nomes.\\
 	\\
-	\subsection{Endereços}
+		\subsection{Endereços}
+	
 	O endereço de uma variável, é o endereço de cécula de memória na qual
 	ela está associada. Em linguagens de programação o endereço da variável 
 	é geralmente associado ao valor esquerdo de uma sentença, lembrando que, 
@@ -124,7 +125,8 @@
 	e manutençaõ do código. O momento no qual uma variável se associa a um
 	endereço é muito importante e diz muito sobre a linguagem usada.
 	
-	\subsection{Tipos e Valores}
+		\subsection{Tipos e Valores}
+	
 	O tipo de valor de uma variável, determina a faixa de valores que ela pode
 	armazenar e o conjunto de operações que podem ser realizadas para esse tipo.
 	Já o valor de uma variável se refere a o conteúdo da célula de memória. 
@@ -136,7 +138,8 @@
 	O valor da variável em muitos casos é chamado de lado direito.
 	
 
-	\subsection{Vinculações}
+		\subsection{Vinculações}
+	
 	Vinculação é uma associação entre um atributo e uma entiedade, para exemplificar
 	pense no simbolo da operação de soma, \texttt{'automaticamente'}, sabemos que 
 	é o simbolo de \texttt{( + )}, esse é um tipo de vinculação, outro exemplo seria
@@ -169,7 +172,7 @@
 	não pode mais ser alterada em tempo de execução, o que pode, evitar falhas
 	no programa.
 	
-		\section{Tempo de vida de variáveis}
+		\subsection{Tempo de vida de variáveis}
 	
 	Uma variável deve ser associada a uma céula de memória, essa célula deve
 	ser obtida de um conjunto de células disponíveis, esse processo é chamado
@@ -198,7 +201,7 @@
 	gerenciamento de memória da \texttt{heap} que se não for administrado
 	da forma correta, podem ocasionar \texttt{overflow} entre outros erros.
 
-		\section{Escopos}
+		\subsection{Escopos}
 	
 	Um dos fatores para o entendimento das variáveis é o escopo. Uma variável
 	é visível se ela pode ser referenciada ou atribuida em sentenças.\\
@@ -208,7 +211,8 @@
 	cujo escopo é restrito no bloco. Uma variável é local quando ela é alocada 
 	em um escopo.\\
 	\\
-		\subsection{Escopo Estático}
+		\subsubsection{Escopo Estático}
+	
 	O escopo estático é caracteristica comum de determinadas linguagens 
 	imperativas, como C e Pascal. Existem dois tipos de escopos estáticos:
 	Aqueles nos quais podem se criar funções dentro de funções e as que não
@@ -219,7 +223,8 @@
 	distantes, pois, só será possivel passando a variável por referência, 
 	o que pode gerar algum custo, se o escopo estiver muito longe da raiz.
 		
-		\subsection{Escopo Dinâmico}
+		\subsubsection{Escopo Dinâmico}
+	
 	A principal diferença com o escopo estático é que no escopo dinâmico 
 	quando um subprograma é acionado, todos os seus descendentes também 
 	terão suas variáveis possiveis de acesso, isso pode gerar facilidades
@@ -229,6 +234,24 @@
 	de chamadas.
 
 
+		\section{Tipos de Dados}	
 	
+	Na seção passada vimos que uma variável pode estar associada a uma 
+	faixa restrita de valores e esses valores podem ser submetidos a um
+	conjunto de operações. Uma linguagem de programação geralmente tem 
+	um conjunto de tipos de dados como: \texttt{int}, \texttt{float},
+	\texttt{doublefloat} entre outros tipos. Há também um conjunto de 
+	operações como \texttt{somas}, \texttt{subtrações} entre outras,
+	que podem ser aplicado a esse cojunto de valores que está associado
+	a um tipo especifico de dado.\\
+	\\
+	Para deixar bem exemplificado a questão de tipos, imagine que temos 
+	um tipo string, ou seja, uma sequência de caracteres: '1234' essa 
+	sequência não poderia ser somada com o tipo inteiro 10, pois, o conjunto
+	de valores associado ao tipo string não permite a operação de soma.\\
 	
+		\subsection{Tipos Primitivos}
+
+
+
 \end{document}
