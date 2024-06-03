@@ -656,30 +656,30 @@
 			Propiedade | OU | E \\ 
 	\\
 	Identidade: $(x \lor 1 = 1)$ | $(x \land 0 = 0)$ \\
-	\\
+	\newline
 	Elemento Neutro: $(x \lor 0 = 0)$ | $(x \land 1 = 0)$ \\
-	\\
+	\newline
 	Idempotência: $(x \lor x = x)$ | $(x \land x = x)$ \\ 
-	\\
+	\newline
 	Involução: $(\lnot(\lnot x) = x)$ | $(\lnot(\lnot x) = x)$ \\ 
-	\\
+	\newline
 	Complemento: $(x \lor \bar{x} = 1)$ | $(x \land \bar{x} = 0)$ \\ 
-	\\
+	\newline
 	Comutatividade: $(x \lor y = y \lor x)$ | $(x \land y = y \land x)$ \\
-	\\
+	\newline
 	Associatividade: $((x \lor y) \lor z = x \lor (y \lor z))$ | 
 	$((x \land y) \land z = x \land (y \land z))$ \\
-	\\
+	\newline
 	Cobertura: $(x \land (x \lor y) = x)$ | $(x \lor (x \land y) = x)$ \\
-	\\
+	\newline
 	Combinação: $((x \land y) \lor (x \land \bar{y}) = x)$ | 
 	$((x \lor y) \land (x /\lor \bar{y}) = x)$ \\
-	\\
+	\newline
 	Consenso: $((x \land y) \lor (\bar{x} \land z) \lor (y \land z) = 
 	(x \land y) \lor (\bar{x} \land z))$ | 
 	$((x \lor y) \land (\bar{x} \lor z) \land (y \lor z) = 
 	(x \lor y) \land (\bar{x} \lor z))$ \\
-	\\
+	\newline
 	Lei de Morgan: $(\lnot(x \lor y) = \bar{x} \lor \bar{y})$ | 
 	$(\lnot(x \land y) = \bar{x} \lor \bar{y})$ \\
 
@@ -699,23 +699,23 @@
 	Inicialmente a dependender da sentença P, ela pode ser verdadeira, porém,
 	como poderiamos provar que a sentençã P é realemnte verdadeira para todo
 	conjunto da variável \texttt{(N)}. Para isso usa-se o seguinte ideia:\\
-	\\
+	\newline
 	Sempre que a sentença \texttt{P} aplicada a uma variável N que pertence a um
 	determinado conjunto é \textbf{verdadeira}, saberemos que para todo
 	e qualquer outro elemento pertencente a este conjunto a sentença \texttt{p}
 	será verdadeira.\\
-	\\
+	\newline
 	Formalmente temos o seguinte: $(\forall n \in$ (conjunto qualquer))
 	a sentença \textbf{P(n)} é verdade. \\
-	\\
+	\newline
 	Para tanto precisamos das seguintes provas: \\
-	\\
-	Provar que a sentença P para algum N do conjunto é verdade.\\
-	\\
+	\newline
+	Que a sentença P para algum N do conjunto é verdade.\\
+	\newline
 	Supor que para algum K $\in$ conjunto qualquer, 
 	a sentença \textbf{P(k)} é verdade.\\
-	\\
-	Provar que \textbf{P(K + 1)} é verdade.
+	\newline
+	Que \textbf{P(K + 1)} é verdade.
 
 			\subsection{\centering Formas Normais (canônicas)}
 	
@@ -723,13 +723,13 @@
 	denominada forma normal ou forma canônica. \\
 
 	Temos a \texttt{Forma Normal Disjuntiva} (FND), onde se tem a 
-	\textbf{Soma de Mintermos}. \\
-	\newline
+	\textbf{soma de Mintermos}. \\
+	
 	E temos também a \texttt{Forma Normal Conjuntiva} (FNC), onde se tem
-	\textbf{Produto de Maxtermos}. \\
+	\textbf{produto de Maxtermos}. \\
 
 	Essas expressões estão relacionados com a tabela verdade de cada expressão
-	álgebrica. Observe o exemplo abaixo: \\
+	algébrica booleana. Observe o exemplo abaixo: \\
 	\begin{table}[ht]
                 \centering
                 \begin{tabular}{|c|c|c|c|}
@@ -752,7 +752,7 @@
 	\textbf{Maxtermos (FNC)}. Neste caso como temos somente 4 zeros, valerá 
 	mais a pena Maxtermos. \\
 	\newline
-	Para útilizarmos os \texttt{Maxtermos} devemos deixar o zero intacto e alterar 
+	Para utilizarmos os \texttt{Maxtermos} devemos deixar o zero intacto e alterar 
 	para negado a variável que tenha o valor 1. Observe abaixo linha por linha. \\
 	\begin{table}[ht]
                 \centering
@@ -771,8 +771,8 @@
                 \end{tabular}
         \end{table}
 
-	Agora como queremos a expressão completa devemos então devemos ter 
-	o \textbf{produto de cada MAXTERMO}, ou seja \\
+	Ágora como queremos a expressão completa devemos então ter 
+	o produto de cada \textbf{Maxtermo}, ou seja \\
 	\begin{center} 
 		$ %FNC - Produto de soma
 		(A \lor B \lor C) \land 
@@ -782,10 +782,10 @@
 	\end{center} 
 
 
-	Faremos agora o \textbf{MINTERMO} para compararmos as formas diferentes
-	de se obter uma expressão de uma tabela verdade, observe que neste caso
+	Por outro lado temos também os \textbf{Mintermos} para se obter 
+	uma expressão de uma tabela verdade, observe que neste caso
 	devemos manter intacto o valor 1 e negar o valor 0 e devemos fazer isso
-	em todas as saidas 1. \\
+	em todas as saídas 1. \\
         \begin{table}[ht]
                 \centering
                 \begin{tabular}{|c|c|c|c|}
@@ -815,10 +815,10 @@
 		$
 	\end{center}
 	
-	Pode haver certas confusões com a Forma Normal Conjuntiva e Disjuntiva, 
+	Pode haver certas confusões com a Forma Conjuntiva e Disjuntiva, 
 	e vou exemplificar melhor por partes. \\
 	\newline
-	\textbf{FND} - Está associada a Mintermos, ou seja, expressões com saidas 1.
+	\textbf{FND} - Está associada a Mintermos, ou seja, expressões com saídas 1.
 	Deve-se ter o \texttt{produto de cada variável}, ou seja, 
 	produto =  variável $\land$ variável ...
 	Obtendo-se os produtos, deve-se realizar a soma deles, ou seja,
@@ -826,7 +826,7 @@
 	\begin{center}
 		$(v * v * v) + (v * v * v) + ... $
 	\end{center}
-	\textbf{FNC} - Está associada a Maxtermos, ou seja, expressões com saidas 0.
+	\textbf{FNC} - Está associada a Maxtermos, ou seja, expressões com saídas 0.
 	Deve-se ter a \texttt{soma das variáveis}, ou seja,
 	soma = variável $\lor$ variável ..., repare que é o inverso da FND.
 	logo, FND = soma $\land$ soma ... Temos aqui \textbf{produto de somas}. \\
