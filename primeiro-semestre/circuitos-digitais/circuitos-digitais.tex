@@ -17,7 +17,8 @@
 	
 	\maketitle
 
-	\section{Introdução}
+			\section{\centering Introdução}
+	
 	Um computador digital pode ser descrito como aquilo que computa, ou aquilo 
 	que processa informação digital. A informação que é processada por um circuito 
 	digital é aquela que é \textbf{quantizada} ou \textbf{discretada} \citep{art1}.\\
@@ -33,7 +34,8 @@
 	Após convertida a informação e processada no circuito digital é preciso converter
 	o sinal de saída do circuito que é digital, em analógico novamente.\citep{art2}
 
-	\section{Conversão Analógico - Digital (Discretação)}
+		\section{\centering Conversão Analógico - Digital (Discretação)}
+	
 	Sinais discretos são frequências descontinuas no tempo, ou seja, definida apenas
 	para determinados instantes. Representa aproximadamente o mundo real, entretanto,
 	podem ser utilizadas várias técnicas para melhorar a representação, como as de 
@@ -42,7 +44,8 @@
 	Aqui também vale ressaltar que o processo de discretação de alguma informação
 	está consequentemente ligada a perca de determinadas informações.
 		
-		\subsection{Principais propiedades da discretação}
+		\subsection{\centering Principais propiedades da discretação}
+		
 		\begin{enumerate}
 			\item\textbf{Amostragem}: Discretação do sinal analógico no tempo.
 			\item\textbf{Quantização}: Discretação da amplitude do sinal amsotrado 
@@ -51,19 +54,22 @@
 				são binários às	amplitudes do sinal quantizado.
 		\end{enumerate}
 
-	\section{Conversão Digital - Analógico (Linearização)}
+		\section{\centering Conversão Digital - Analógico (Linearização)}
+	
 	Se refere a o processo que transforma um sinal modelado por eventos discretos
 	em um sinal contínuo, ou seja, o processo de integração de vários sinais discretos
 	para simular um evento contínuo.
 
-	\section{Processamento}
+			\section{\centering Processamento}
+
 	O processamento de informação se refere a diversas operaçõs realizadas por um circuito
 	digital para transformar a entrada de dados em uma saida significativa de interesse. 
 	Isso pode ser calculos, manipular dados como agregação, separação e classificação 
 	ou ainda filragem, entre outros. Além disso, no circuito digital é simplificado o 
 	armazenamento de informações bem como possui uma menor probabilidade de interferências.
 	
-	\section{Sistemas de numeração}
+			\section{\centering Sistemas de numeração}
+
 	Número nos remete a ideia de quantidade, já o numeral é a representação desta 
 	ideia, na prática, nos referimos a palavra número para qualquer tipo de
 	representação numeral.\\
@@ -134,7 +140,8 @@
 		\sum_{i = 1}^{\infty} a_{-i} * 10^{-i}$
 	\end{center}
 
-	\section{Truncamento}
+			\section{\centering Truncamento}
+
 	Vemos que à medida que caminhamos mais a direita depois da virgula, o
 	valor relativo a cada algarismo se torna cada vez menor, podemos
 	fazer uma representação aproximada do número gerado, limitando 
@@ -160,7 +167,8 @@
 	
 	ou seja, aumentar \texttt{M} implica em diminuir o erro.
 	
-	\section{Bases não decimais}
+			\section{\centering Bases não decimais}
+
 	A quantidade de algarismos usados em um sistema de numeração posicional é
 	chama de base, por exemplo: O sistema decimal tem 10, o sistema binário tem 2 e 
 	assim por diante.\\
@@ -181,7 +189,8 @@
 		$(a_{n-1} a_{n-2} ... a_{1} a_{0}, a_{-1} a_{-2} ... a_{M})_d$
 	\end{center}
 
-	\section{Conversão de bases}
+			\section{\centering Conversão de bases}
+
 	Para converter um número $\textbf{n}_{10}$ para $\textbf{n}_{d}$ faremos
 	divisões sucessivas entre o quociente e a base \textbf{d}.\\
 	\\
@@ -192,13 +201,15 @@
 	Da base 2 para base 16 por exemplo, pode se seguir o padrão de contagem 
 	de 4 em 4 bits e ver qual a representação.
 	
-	\section{Operações Binárias}
+			\section{\centering Operações Binárias}
+
 	A base 2 é a base númerica mais utilizada na computação hoje em dia, em conjunto
 	com a base 8, 16 e 64. Veremos futuramente que o computador realiza operações
 	aritméticas na sua Unidade Lógica Aritmética \texttt{(ULA)}, entenderemos
 	agora como essas operações são realizadas na base binária.
 
-	\subsection{soma}
+			\subsection{\centering soma}
+
 	Antes de falarmos sobre a soma binária, precisamos relembrar o algoritmo da
 	soma decimal, considere dois numeros A e B, sendo eles:\\
 	\\
@@ -221,7 +232,8 @@
 		\end{tabular}
 	\end{table}
 	
-	\subsection{Overflow}
+			\subsection{\centering Overflow}
+
 	Agora considere a seguinte soma, $(111001)_2 + (110011)_2 = (1101100)_2$ 
 	repare que a soma de dois números binários de 6 bits, resultou em um número
 	binário de 7 bits, se nossa memoria fosse apenas de 6 bits, ocasionária um 
@@ -240,7 +252,8 @@
 	devemos analisar se o resultado tem o mesmo sinal dos operadores, se for
 	diferente, temos um \texttt{Overflow / Underflow}.
 
-	\subsection{Subtração}
+			\subsection{\centering Subtração}
+
 	Para realizar as subtrações binárias, usaremos o complemento de 1 e complemento
 	de 2, para evitar, detalhamentos adicionais.\\
 	\\
@@ -255,14 +268,16 @@
 		\item[$\bar{B} + 1$]: Complemento de 2
 	\end{description}
 
-	\subsection{Multiplicação}
+			\subsection{\centering Multiplicação}
+
 	O algoritmo da multiplicação binária é semelhante a ídeia usada no decimal, 
 	e muito mais facil, pois os operandos é somente 0 e 1.\\
 	\\
 	Observe que se A tem \texttt{n} algarismos e B tem \texttt{m} algarismos
 	o produto $A * B$ terá no máximo, \texttt{n} + \texttt{m} algarismos.
 	
-	\subsection{Números Reais}
+			\subsection{\centering Números Reais}
+
 	Como fica as operações nos números reais? como sempre, podemos nos inspirar na
 	base decimal, suponha os seguintes números: \\
 	\\
@@ -274,7 +289,8 @@
 	podemos	inicialmente ignorar a virgula, realizar a operação, logo em seguida, 
 	realocar a virgula \texttt{k} algarismos à direita.
 
-	\section{Representações númericas em computador digital}
+		\section{\centering Representações númericas em computador digital}
+	
 	Em um computador digital, quaquer informação (dados), em última instância
 	é representado por um número. Atualmente os números são representados em base 2
 	pela facilidade em fazer contas. Um computador digital possui espaço finito
@@ -294,7 +310,8 @@
 	os operandos podem ter no máximo 64 bits, ou 32 bits depende da arquitetura. 
 	veremos isso mais profundamente no futuro.\\
 
-	\subsection{Estudos de melhoria de processamento de dados}
+		\subsection{\centering Estudos de melhoria de processamento de dados}
+	
 	Hoje existem pesquisadores tentando melhorar a capacidade de processamento, 
 	na computação clássica, uma melhor capacidade de processamento seria uma palavra
 	maior ou ainda o processamento paralelo de palavras. Existe a computação
@@ -306,7 +323,8 @@
 	A melhora da capacidade de processamento dos dados na éra da informação 
 	é uma quebra de barreiras e uma evidente elevação da fronteira do conhecimento.
 	\\
-	\section{Representação Binária}
+		\section{Representação Binária}
+	
 	Podemos sistematizar a representação de números inteiros com \texttt{N} bits
 	da seguinte forma: $2^{n} - 1$. \\
 	\\
@@ -320,20 +338,23 @@
 	O número atual é $2^{n} - 1$ o próximo seria: $2^{n}$, logo, o anterior
 	do atual é $2^{n} - 2$.
 
-	\section{Extenções}
+		\section{\centering Extenções}
+	
 	Imagine a seguinte situação, um número \texttt{A} com \texttt{n} bits, porém,
 	queremos fazer uma representação com \texttt{w} bits sendo \texttt{w > n}.\\
 	\\
 	Se o número for um inteiro sem sinal, neste caso, basta adicionar os zeros
 	a esquerda até \texttt{n} ficar igual a \texttt{w}.
 	
-		\subsection{Números com sinais}
+		\subsection{\centering Números com sinais}
+	
 	Para fazermos representações de números negativos, precisamos reservar um espaço
 	na palavra para representar o sinal. Existem várias técnicas para fazer esta 
 	representação, como o sinal-magnitude, complementos de 1 e de 2, veremos
 	adiante.
 
-		\subsubsection{Sinal-Magnitude}
+		\subsubsection{\centering Sinal-Magnitude}
+	
 	O Sinal-Magnitude é a reserva do bit mais significativo da palavra, ou seja, 
 	o bit mais a esquerda, para representar o sinal do número: \\
 	\\
@@ -355,7 +376,8 @@
 	\\
 	Essa técnica vale para qualquer sinal, seja positivo ou negativo.
 	
-		\subsubsection{Inclusões de sinais}
+		\subsubsection{\centering Inclusões de sinais}
+	
 	A inclusão de sinal trata-se de uma forma simples de converter uma 
 	representação binária sem sinal para uma representação com sinal e 
 	para realizar a conversão basta converter os níveis lógicos do número:\\
@@ -430,7 +452,8 @@
 	Repare que $(001_2)_{c2} > (101_2)_{c2}$ não é nada
 	intuitivo, porém, para o computador é indiferente.
 	
-		\subsubsection{Extensão em complemento de 2}
+		\subsubsection{\centering Extensão em complemento de 2}
+	
 	Para representar uma palavra com sinal magnitude
 	podemos apenas conservar o bit mais significativo, neste caso
 	em complemento de dois, a técnica se altera, considere o seguinte:\\
@@ -450,7 +473,7 @@
 	Por fim, sempre que formos adicionar um sinal na representação do
 	número, precisaremos de um bit a mais para representar o sinal.
 
-		\section{Álgebra Booleana}
+		\section{\centering Álgebra Booleana}
 
 	A álgebra booleana foi descrita e conceituada por George Boole. 
 	Em 1854, publicou seu trabalho no qual fundamenta a álgebra que 
@@ -472,7 +495,7 @@
 	e linguagens formais. São assuntos nos quais me geram 
 	grande entusiasmo.\\
 
-		\subsection{Principios Básicos da Álgebra Booleana}
+		\subsection{\centering Principios Básicos da Álgebra Booleana}
 	
 	São dois príncipios fundamentais:\\
 
@@ -485,7 +508,8 @@
 	\end{itemize}
 
 
-		\subsection{Operações Básicas}
+		\subsection{\centering Operações Básicas}
+	
 	Já visto em matemática discreta, porém, iremos reforçar:\\
 	\\
 	\texttt{Conjunção ou também Multiplicação booleana:}\\
@@ -500,7 +524,8 @@
 	Todas essas expressões são também representadas em linguagens de 
 	programação.\\
 		
-		\subsection{Tabelas Verdade}
+		\subsection{\centering Tabelas Verdade}
+	
 	Não nos aprofundaremos tanto nas tabelas verdades, são facilmente encontradas
 	e também será tratada melhor em matemática discreta, aqui nos basta saber o
 	seguinte: \\
@@ -518,7 +543,8 @@
 	o valor resultado será falso, pois, só um pode ser verdadeiro.\\
 	\\
 
-		\subsection{Expressões Lógicas}
+		\subsection{\centering Expressões Lógicas}
+	
 	Como na álgebra comum, podemos combinar as operações, formando as expressões
 	lógicas. O resultaod de uma expressão lógica pode ser obtido aplicando-se 
 	cada operação, respeitando a ordem de precedência dos operadores.\\
@@ -547,7 +573,8 @@
 	$0 \lor 0$\\
 	$0$\\
 	\\
-		\subsubsection{Variáveis Booleanas}
+		\subsubsection{\centering Variáveis Booleanas}
+	
 	Como na álgebra comum, podemos deixar valores indeterminados, esse valores
 	são chamados de variáveis booleanas.\\
 	\\
@@ -555,7 +582,7 @@
 	Agora podemos substituir os valores de \texttt{x} e \texttt{y} e calcular
 	a expressão.\\
 	\\
-		\subsection{Tabelas Verdade de Expressões Lógicas}
+		\subsection{\centering Tabelas Verdade de Expressões Lógicas}
 
 	Podemos construir as tabelas verdades de expressões lógicas, atribuindo
 	todos os valores possiveis às variáveis.\\
@@ -584,7 +611,7 @@
 	forma: $(X \oplus Y)$, ou seja, a expressão é verdadeira, quando somente um 
 	dos valores é verdadeiro.
 
-		\subsection{Funções Lógicas}
+		\subsection{\centering Funções Lógicas}
 	
 	Uma função lógica pode ser definida como um conjunto de entradas lógicas
 	que terá como resultante uma expressão que será verdadeira ou falsa.\\
@@ -618,7 +645,7 @@
 	1 e 1, ou seja, o resultado é sempre contrário a $x \oplus y$, logo 
 	temos que a expressão da função F(x,y) é $\lnot (x \oplus y)$.
 
-		\subsection{Regras Básicas da Álgebra Booleana}
+		\subsection{\centering Regras Básicas da Álgebra Booleana}
 
 	Usando as regras da álgebra booleana é possivel simplificar expressões.
 	Todas as regras básicas aqui a serem descritas podem ser demonstradas 
@@ -656,7 +683,7 @@
 	Lei de Morgan: $(\lnot(x \lor y) = \bar{x} \lor \bar{y})$ | 
 	$(\lnot(x \land y) = \bar{x} \lor \bar{y})$ \\
 
-		\subsection{Introdução a Indução Lógica}
+		\subsection{\centering Introdução a Indução Lógica}
 	
 	Para se compreender formalmente como funciona as técnicas de indução
 	é interessante que se tenha consolidado os conhecimentos em técnicas 
@@ -665,7 +692,7 @@
 	técnica de indução para que se possa demonstrar algumas simplificações 
 	das nossas expressões.\\
 		
-		\subsubsection{Princípio da Indução Matemática}
+		\subsubsection{\centering Princípio da Indução Matemática}
 	
 	Considere uma sentença \texttt{P()} que quando aplicada a uma variável 
 	\texttt{n}, possa ser considerada \textbf{Verdadeira} ou \textbf{Falsa}.
@@ -689,9 +716,124 @@
 	a sentença \textbf{P(k)} é verdade.\\
 	\\
 	Provar que \textbf{P(K + 1)} é verdade.
-	
 
-	% Referências. 
+			\subsection{\centering Formas Normais (canônicas)}
+	
+	Toda expressão booleana pode ser escrita de uma forma padronizada, 
+	denominada forma normal ou forma canônica. \\
+
+	Temos a \texttt{Forma Normal Disjuntiva} (FND), onde se tem a 
+	\textbf{Soma de Mintermos}. \\
+	\newline
+	E temos também a \texttt{Forma Normal Conjuntiva} (FNC), onde se tem
+	\textbf{Produto de Maxtermos}. \\
+
+	Essas expressões estão relacionados com a tabela verdade de cada expressão
+	álgebrica. Observe o exemplo abaixo: \\
+	\begin{table}[ht]
+                \centering
+                \begin{tabular}{|c|c|c|c|}
+                        \hline
+			A & B & C & F(A, B, C)\\ \hline
+
+			0 & 0 & 0 & 0 \\ \hline
+			0 & 0 & 1 & 1 \\ \hline
+			0 & 1 & 0 & 0 \\ \hline
+			0 & 1 & 1 & 0 \\ \hline
+			1 & 0 & 0 & 1 \\ \hline
+			1 & 0 & 1 & 1 \\ \hline
+			1 & 1 & 0 & 1 \\ \hline
+			1 & 1 & 1 & 1 \\ \hline
+                \end{tabular}
+        \end{table}
+
+	Agora queremos obter a expressão da função (F), no qual nos foi fornecida
+	sua tabela verdade. Podemos utilizar \textbf{Mintermos (FND)} ou 
+	\textbf{Maxtermos (FNC)}. Neste caso como temos somente 4 zeros, valerá 
+	mais a pena Maxtermos. \\
+	\newline
+	Para útilizarmos os \texttt{Maxtermos} devemos deixar o zero intacto e alterar 
+	para negado a variável que tenha o valor 1. Observe abaixo linha por linha. \\
+	\begin{table}[ht]
+                \centering
+                \begin{tabular}{|c|c|c|c|}
+                        \hline
+                        A & B & C & F(A, B, C)\\ \hline
+
+                        0 & 0 & 0 & $A \lor B \lor C$ \\ \hline %Maxtermos
+                        0 & 0 & 1 & 1 \\ \hline
+			0 & 1 & 0 & $A \lor \lnot{B} \lor C$ \\ \hline %Maxtermos
+			0 & 1 & 1 & $A \lor \lnot{B} \lor \lnot{C}$ \\ \hline %Maxtermos
+                        1 & 0 & 0 & 1 \\ \hline
+                        1 & 0 & 1 & 1 \\ \hline
+                        1 & 1 & 0 & 1 \\ \hline
+                        1 & 1 & 1 & 1 \\ \hline
+                \end{tabular}
+        \end{table}
+
+	Agora como queremos a expressão completa devemos então devemos ter 
+	o \textbf{produto de cada MAXTERMO}, ou seja \\
+	\begin{center} 
+		$ %FNC - Produto de soma
+		(A \lor B \lor C) \land 
+		(A \lor \lnot{B} \lor C) \land 
+		(A \lor \lnot{B} \lor \lnot{C})
+		$ 
+	\end{center} 
+
+
+	Faremos agora o \textbf{MINTERMO} para compararmos as formas diferentes
+	de se obter uma expressão de uma tabela verdade, observe que neste caso
+	devemos manter intacto o valor 1 e negar o valor 0 e devemos fazer isso
+	em todas as saidas 1. \\
+        \begin{table}[ht]
+                \centering
+                \begin{tabular}{|c|c|c|c|}
+                        \hline
+                        A & B & C & F(A, B, C)\\ \hline
+
+                        0 & 0 & 0 & 0 \\ \hline
+			0 & 0 & 1 & $\lnot{A} \land \lnot{B} \land C$ \\ \hline %Mintermos
+                        0 & 1 & 0 & 0 \\ \hline
+                        0 & 1 & 1 & 0 \\ \hline
+			1 & 0 & 0 & $A \land \lnot{B} \land \lnot{C}$ \\ \hline %Mintermos
+			1 & 0 & 1 & $A \land \lnot{B} \land C$ \\ \hline %Mintermos
+			1 & 1 & 0 & $A \land B \land \lnot{C}$ \\ \hline %Mintermos
+                        1 & 1 & 1 & $A \land B \land C$ \\ \hline %Mintermos
+                \end{tabular} 
+        \end{table}
+
+	Agora que temos os \texttt{Mintermos}, devemos obter a \textbf{soma}
+	destes, ou seja \\
+	\begin{center}
+		$  %FND - Soma de Produtos
+		(\lnot{A} \land \lnot{B} \land C) \lor 
+		(A \land \lnot{B} \land \lnot{C}) \lor 
+		(A \land \lnot{B} \land C) \lor 
+		(A \land B \land \lnot{C}) \lor 
+		(A \land B \land C) 
+		$
+	\end{center}
+	
+	Pode haver certas confusões com a Forma Normal Conjuntiva e Disjuntiva, 
+	e vou exemplificar melhor por partes. \\
+	\newline
+	\textbf{FND} - Está associada a Mintermos, ou seja, expressões com saidas 1.
+	Deve-se ter o \texttt{produto de cada variável}, ou seja, 
+	produto =  variável $\land$ variável ...
+	Obtendo-se os produtos, deve-se realizar a soma deles, ou seja,
+	FND =  produto $\lor$ produto ... Temos aqui \textbf{soma de produtos}. \\
+	\begin{center}
+		$(v * v * v) + (v * v * v) + ... $
+	\end{center}
+	\textbf{FNC} - Está associada a Maxtermos, ou seja, expressões com saidas 0.
+	Deve-se ter a \texttt{soma das variáveis}, ou seja,
+	soma = variável $\lor$ variável ..., repare que é o inverso da FND.
+	logo, FND = soma $\land$ soma ... Temos aqui \textbf{produto de somas}. \\
+	\begin{center}
+		$(v + v + v) * (v + v + v) * ... $
+	\end{center}
+
 
 	\bibliographystyle{apalike}
         \bibliography{ref.bib}
