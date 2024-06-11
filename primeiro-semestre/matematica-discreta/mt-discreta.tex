@@ -12,34 +12,47 @@
 	\maketitle
 	
 	\begin{abstract}
-	Essa disciplina será baseada no livro: \texttt{Elementos da Matemática Discreta
-		para computação} do Prof. Dr. \textbf{Jorge Stolfi},
-		além das orientações em vídeo aula do no youtube do Prof. Dr. 
-		\textbf{Rudini Menezes Sampaio}
+		Essa discplina será baseada na playlist Matemática Discreta
+		(Fundamentos Matemáticos para Computação) disponível no youtube do canal 
+		Prof. Douglas Maioli que tem uma vasta experiência em \texttt{educação}.
+		Prof. Douglas tem Mestrado e Doutorado em Matemática Aplicada pela
+		UNICAMP, além da Graduação em Licenciatura em Matematica pela UNESP.
+
+		\textbf{Matematica Para Computação, Matematica Discreta}
 	\end{abstract}
 
-	\section{Lógica Proposicional}
+			%Introdução a Lógica Proposicional%
+		%Aula - 1 Proposições, Tabelas verdades, conectivos%
+		%Aula - 2 fbf, ordem de precedencia, Tauto e contradição %
+		%Aula - 3 Equiva. e leis da eq. %
+		%Aula - 4 Regras de inferência %
+		%Aula - 5 Predicados e Quantificadores%
+		%Aula - 6 Exemplos com prolog. %
+
+		\section{\cetering Introdução à Lógica Proposicional}
 
 	Uma proposição é uma sentença que pode assumir valores \texttt{Verdadeiro} 
 	ou \texttt{Falso}, não é necessário que se saiba o valor da sentença, apenas
 	que seja possivel atribuir algum desses dois valores.\\
-	\\
+	\newline
 	Sentenças que não são proposições, logicamente, não podem receber valores
 	\texttt{Verdadeiros} ou \texttt{Falsos}, porém, observa-se que sentenças
 	interrogativas, imperativas em geral não são proposições. Uma sentença 
 	declarativa que tenha dependencia de variáveis pode ser considerada
 	proposição, dês de que os valores das variáveis sejam definidos.
 	
-		\subsection{Conectivos lógicos e proposições compostas}
+		\subsection{Conectivos lógicos e Proposições Compostas}
 
-	Conectivos lógicos podem ser entendidos como: \texttt{e}, \texttt{ou}, 
-	\texttt{não}, \texttt{se ... então}. Esses conectivos permitem formar 
-	proposições compostas.\\
-	\\
+	Conectivos lógicos podem ser entendidos como: \texttt{E}, \texttt{OU}, 
+	\texttt{NÃO(NEGAÇÃO)}, \texttt{se ... então(IMPLICAÇÃO)}. Esses conectivos 
+	permitem formar proposições compostas. \\
+	\newline
 	Uma proposição composta, possui na sua estrutura, composições simples ou 
 	\texttt{atômica}.
 
-		\subsection{Notação para cálculo proposicional}
+		\subsubsection{\centering Tabelas Verdade}
+
+		\subsection{\cetering Notação para cálculo proposicional}
 
 	A lógica proposicional é um formalismo que nos permite determinar o valor 
 	lógico das proposições. As letras minúsculas será a representação das 
@@ -65,8 +78,9 @@
 			\texttt{Tese, conclusão ou consequência} 
 			\textbf{verdadeira}
 		\end{center}
-
-		\subsection{Procedência dos operadores lógicos}
+		
+		% Aula 2
+	\subsection{\centering Procedência dos operadores lógicos}
 
 	Em uma proposição que usa dois ou mais operadores lógicos a ordem em que são
 	aplicados é importante. Podemos aplicar parenteses nas proposições para indicar
@@ -86,11 +100,13 @@
 				\hline
 			\end{tabular}
 		\end{table}
+
+		\subsection{\centering Fórmulas Bem Formuladas (fbf)}
+
+		\subsection{\centering Tautologia e Contradições}
 	
-		\subsection{Tautologia e Contradições}
 	Tautologia é uma proposição que é sempre verdadeira, para qualquer valor
 	atômico que a componha.\\
-	\\
 	Pense na seguinte sentença: $P \lor \lnot p$, neste caso, \texttt{p}
 	pode assumir qualquer valor que sua resposta será sempre verdadeira e
 	isso é uma tautologia. Veremos como isso é aplicado diretamente na
@@ -139,7 +155,11 @@
 	Outras como associatividade e distributivas também não será vista, pois, 
 	segue a mesma lógica que operações aritméticas.
 
-		\subsection{Síntese de proposições}
+			%% Aula 4
+		\subsection{\cetering Regras de Inferência}
+
+			%% Aula 5
+		\subsection{\centering Predicados e Quantificadores}
 
 
 
