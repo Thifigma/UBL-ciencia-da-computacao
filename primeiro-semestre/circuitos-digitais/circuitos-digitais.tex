@@ -835,6 +835,75 @@
 	\end{center}
 	
 		\subsection{\centering Fatorações Lógicas}
+	
+	Bem sabemos que todo e qualquer circuito digital tem uma expressão, logo, 
+	a simplificação dessas expressões levam a circuitos mais simplificados. \\
+	\newline
+	Para realizar as simplificações das expressões é necessário ter todo o
+	conhecimento registrado até aqui, como as regras da álgebra booleana, 
+	equivalências, propiedades, etc... \\
+	\newline
+	Veremos duas formas básicas de simplificar expressões: \\
+		
+		Fatoração;
+		
+		Mapa de Karnaugh. \\
+	\newline	
+	Partimos do seguinte \texttt{Teorema}: Toda função lógica possui uma expressão
+	que a define e pode ser descrita como \textbf{FND} ou também chamada: 
+	\texttt{Soma de produtos}. \\
+	\newline
+	\texttt{FNC} e \texttt{FND} são formas padrões de representações de expressões
+	booleanas, como exemplificado nas seções anteriores, \textbf{FND} possui
+	sua simplicidade por representar as variáveis no estado em que estão, 
+	por exemplo uma função F(A, B, C) = 0, 0, 1 oberve que	em \textbf{FND} 
+	temos:	$(\lnot{A} \lnot{B} C)$. \\
+	\newline
+	Agora em \textbf{FNC} a mesma função seria representada	da seguinte 
+	forma: $(A B \lnot{C})$, o que pode soar um pouco contra-intuitivo,
+	pois a variavel de valor 1 seria negada.
+		
+		\subsubsection{\centering Simplificações Lógicas}
+	
+	Observe a seguinte expressão: 
+	\begin{center} 
+		$(\bar{A} B C\bar{D} + \bar{A} B C D + A B C\bar{D} + A B C D)$  	
+	\end{center}
+	Podemos colocar o termo BC em evidência:
+	\begin{center} 
+		$BC(\bar{A}\bar{D} + \bar{A}D + A\bar{D} + AD)$
+	\end{center}
+	Agora podemos usar a associação nos termos D e $\bar{D}$: 
+	\begin{center} 
+		$BC(\bar{A}(\bar{D}  + D) + A(\bar{D} + D))$
+	\end{center}
+	Agora podemos utilizar o complemento, observe que (N + $\bar{N}$) = 1. \\
+	\begin{center} 
+		$BC(\bar{A} + A)$ ,  
+	\end{center}
+	logo \\
+	\begin{center} 
+		$BC$
+	\end{center}
+	Esse é o processo de simplificações de expressões por propiedades da álgebra 
+	booleana. 
+
+		\subsection{\centering Mapas de Veitch - Karnaugh}
+	
+	Há método mais otimizado e visual para realizar esse processo de 
+	simplificação, foi descrito em um artigo por Edward W. Veith e públicado 
+	em 1952. \\
+	\newline
+	Veitch introduziu o método visual, porém, era complicado de se entender e 
+	não sistematizado, em 1953 Karnaugh fez algumas contribuições com o método 
+	de Veitch introduzindo um conceito conhecido como \textbf{"Código de Gray"}
+	onde as variáveis são introduzidas no mapa por diferença de 1 bit, isso
+	facilitava a visualização das simplificações possiveis, também introduziu
+	agrupamentos em potência de 2, isso tornou a simplificação mais eficiênte
+	e sistemática, karnaugh simplificou o método que era complicado de entender,
+	semelhante o que aconteceu com Von Neumann e nosso querido amigo Turing.
+
+
 
 	\bibliographystyle{apalike}
         \bibliography{ref.bib}
