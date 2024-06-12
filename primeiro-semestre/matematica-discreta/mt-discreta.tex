@@ -4,6 +4,8 @@
 \usepackage[brazil]{babel}
 \usepackage[top=2cm, bottom=2cm, right=2cm, left=2cm]{geometry}
 
+\usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{graphicx}
 
 \title{Matemática Discreta para Computação}
@@ -262,9 +264,43 @@
 	as variáveis que compoem a sentença precisa necessáriamente estar fora de 
 	qualquer conjunto universo ou ainda, não se pode determinar o valor absoluto 
 	da variável para se tornar uma proposição. \\
-
-	Observe a seguinte sentença: \\ 
-	\centering{$P(x) | x^2 < 9$}
-
-
+	\newline
+	Considere a seguinte sentença: $P(x)\;|\;x^2\;<\;9$ \\
+	\newline
+	Observe que não é possivel definir se a sentença é verdadeira ou falsa, 
+	pois não foi determinado o seu conjunto universo, logo a sentença é um 
+	predicado e não uma proposição. \\
+	\newline
+	Iremos definir o conjunto universo de X iniciando com o \texttt{Quantificador
+	Universal} $(\forall)$, observe:
+	\begin{center}
+		$(\forall x \in \mathbb{R}) \; P(x)$	
+	\end{center}
+	Agora x faz parte do conjunto dos números reais, então podemos definir
+	se a sentença vai ser verdaira ou falsa, deixando de ser aberta e se tornando
+	restrita a um determinado conjunto universo. \\
+	Observe que o quantificador universal, signica para todo e qualquer elemento. \\
+	\newline
+	Já em contraponto com o universal, existe o quantificador de existência, 
+	que indica que pelo menos um elemento existe, ou seja, não necessariamente 
+	todos e quaisquer elementos mas pelo menos um, ele é caracterizado pelo 
+	caracter: $\exists$. \\
+	\newline
+	Podemos também quantificar um único elemento, da seguinte forma: $\exists!$ \\
+	\newline
+	Agora observe a seguinte frase:
+	\begin{center}
+		\texttt{Todas e qualquer discente de Ciência da Computação ou 
+		Informática Biomédica são legais}
+	\end{center}
+	Podemos discretar da seguinte forma:  \\
+	\newline
+	A(x) é um aluno ou uma aluna \\
+	L(x) x estuda Ciência da Computação \\ 
+	N(x) x é legal \\
+	a(x) x estuda Informática Biomédica
+	\begin{center}
+		$(\forall x)[A(x) \land (L(x)  \lor a(x)) \Rightarrow N(x)]$
+	\end{center}
 \end{document}
+
