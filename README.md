@@ -34,7 +34,7 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 
 E que leve o tempo que for.
 
-<center> *Não fique preso em caixas, crie sua própria bolha* </center>
+<center> _"Não fique preso em caixas, crie sua própria bolha"_ </center>
 
 
 ## Curriculo
