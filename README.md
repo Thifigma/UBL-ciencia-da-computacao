@@ -43,11 +43,21 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 ### 1ª Etapa
 | Etapa | Aulas em Vídeo | Pré-requisitos | Leitura Recomendada |
 |---|---|---|---|
-| 1 | [Circuitos Digitais](https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf) | - | [Livros sobre Circuitos Digitais](extras/bibliography/01_digital_circuits.md) |
-| 1 | [Matemática Discreta](https://www.youtube.com/playlist?list=PLrOyM49ctTx-HWypJVvn_zMO1o7oOAfVx) | - | [Livros sobre Matemática Discreta](extras/bibliography/02_discrete_mathematics.md) |
-| 1 | [Linguagens de Programação](https://www.youtube.com/watch?v=xfDdxqbkiSQ&list=PLnzT8EWpmbka4KukGR184tifzqcuq_ZDv) | - | [Livros sobre Linguagens de Programação](extras/bibliography/03_programming_languages.md) |
-| 1 | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | - | [Livros sobre Introdução a CC](extras/bibliography/04_intro_python.md) |
-| 1 | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | - | [Livros sobre Geometria Analítica](extras/bibliography/05_analytic_geometry.md) |
+| 1 | [Circuitos Digitais](
+ https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf
+) | - | [Situação]  |
+| 1 | [Matemática Discreta](
+ https://www.youtube.com/playlist?list=PLrOyM49ctTx-HWypJVvn_zMO1o7oOAfVx
+) | - | [Situação] |
+| 1 | [Linguagens de Programação](
+ https://www.youtube.com/watch?v=xfDdxqbkiSQ&list=PLnzT8EWpmbka4KukGR184tifzqcuq_ZDv
+) | - | [Situação] |
+| 1 | [Introdução à Ciência da Computação com Python I](
+ https://www.coursera.org/learn/ciencia-computacao-python-conceitos
+) | - | [Situação] |
+| 1 | [Geometria Analítica](
+ https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L
+) | - | [Situação] |
 
 ---
 
