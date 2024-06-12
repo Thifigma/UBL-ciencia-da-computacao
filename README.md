@@ -28,14 +28,13 @@ Os pilares da universidade consiste em:
 Este é o registro da minha trajetória na Universidade Brasileira Livre no curso de Ciência da Computação.
 
 - Os registros das disciplinas será feito em LaTex. 
+- Posso optar por disciplinas que se associam ao meu ensino formal atual
+- Posso optar por disciplinas que tenho mais interesse ou necessidade
+- Ao final do curso pretendo fazer um Trabalho de Conclusão de Curso (TCC).
 
-## Turmas Atuais
+E que leve o tempo que for.
 
-|Nome da disciplina|Situação|
-|:-:|:-:|
-|Circuitos Digitais|Cursando|
-|Linguagens de programação|Cursando|
-|Matemática Discreta|Cursando|
+<center> *Não fique preso em caixas, crie sua própria bolha* </center>
 
 
 ## Curriculo
