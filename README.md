@@ -41,84 +41,84 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 ## Curriculo
 
 ### 1ª Etapa
-| Etapa | Disciplina | Pré-requisitos | Situação |
-|---|---|---|---|
-| 1 | [Circuitos Digitais](https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf) | - | [Cursando]  |
-| 1 | [Matemática Discreta](https://www.youtube.com/playlist?list=PLrOyM49ctTx-HWypJVvn_zMO1o7oOAfVx) | - | [Cursando] |
-| 1 | [Linguagens de Programação](https://www.youtube.com/watch?v=xfDdxqbkiSQ&list=PLnzT8EWpmbka4KukGR184tifzqcuq_ZDv) | - | [Cursando] |
-| 1 | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | - | [Concluido] |
-| 1 | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | - | [Não iniciado] |
+| Disciplina | Pré-requisitos | Situação |
+|---|---|---|
+| [Circuitos Digitais](https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf) | - | [Cursando]  |
+| [Matemática Discreta](https://www.youtube.com/playlist?list=PLrOyM49ctTx-HWypJVvn_zMO1o7oOAfVx) | - | [Cursando] |
+| [Linguagens de Programação](https://www.youtube.com/watch?v=xfDdxqbkiSQ&list=PLnzT8EWpmbka4KukGR184tifzqcuq_ZDv) | - | [Cursando] |
+| [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | - | [Concluido] |
+| [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | - | [Não iniciado] |
 
 ---
 
 ### 2ª Etapa
 
-| Etapa | Disciplina | Pré-requisitos | Situação |
-| -------- | --------------- | --------------- | -------------------- |
-| 2 | [Cálculo I](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx) | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | [Não iniciado] |
-| 2 | [Álgebra Linear I](https://www.youtube.com/playlist?list=PLIEzh1OveCVczEZAjhVIVd7Qs-X8ILgnI) | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | [Não iniciado] |
-| 2 | [Estruturas de Dados](https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW) | [Matemática Discreta](https://www.youtube.com/watch?v=KGoSTh1sgyM&list=PL6mfjjCaO1WrEJ0JKRyXO3QjaPkJaSvAS)<br><br>[Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | [Não iniciado] |
-| 2 | [Introdução à Ciência da Computação com Python II](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2) | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | [Cursando]) |
-| 2 | [Laboratório de Programação Orientada a Objetos I](https://pt.coursera.org/learn/lab-poo-parte-1) | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | [Cursando] |
+| Disciplina | Pré-requisitos | Situação |
+| --------------- | --------------- | -------------------- |
+| [Cálculo I](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx) | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | [Não iniciado] |
+| [Álgebra Linear I](https://www.youtube.com/playlist?list=PLIEzh1OveCVczEZAjhVIVd7Qs-X8ILgnI) | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | [Não iniciado] |
+| [Estruturas de Dados](https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW) | [Matemática Discreta](https://www.youtube.com/watch?v=KGoSTh1sgyM&list=PL6mfjjCaO1WrEJ0JKRyXO3QjaPkJaSvAS)<br><br>[Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | [Não iniciado] |
+| [Introdução à Ciência da Computação com Python II](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2) | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | [Cursando]) |
+| [Laboratório de Programação Orientada a Objetos I](https://pt.coursera.org/learn/lab-poo-parte-1) | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | [Cursando] |
 
 
 ---
 
 ### 3ª Etapa
 
-| Etapa | Disciplina | Pré-requisitos | Situação |
-| -------- | --------------- | --------------- | -------------------- |
-| 3 | [Algoritmos em Grafos](https://www.youtube.com/watch?v=fjOiu6CD5pc&list=PLrPn-zKAOzUzKdPqFNF52g-i9p1f-vmsk) | [Estruturas de Dados](https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW) | [Não iniciado] |
-| 3 | [Arquitetura de Computadores I](https://www.youtube.com/playlist?list=PLEUHFTHcrJmswfeq7QEHskgkT6HER3gK6) | [Circuitos Digitais](https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf) | [Não iniciado] |
-| 3 | [Probabilidade e Estatística](https://www.youtube.com/watch?v=snXf8YT7L3U&list=PLrOyM49ctTx8HWnxWRBtKrfcuf7ew_3nm) | [Cálculo I](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx) | [Não iniciado]|
-| 3 | [Cálculo II](https://www.youtube.com/watch?v=lQdzRBRL9Tw&list=PLAudUnJeNg4sd0TEJ9EG6hr-3d3jqrddN) | [Cálculo I](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx) | [Não iniciado] |
-| 3 | [Programação Funcional em Haskell](https://www.youtube.com/watch?v=eTisiy5FB7k&list=PLYItvall0TqJ25sVTLcMhxsE0Hci58mpQ&index=1) | \- | [Não iniciado] |
+| Disciplina | Pré-requisitos | Situação |
+| --------------- | --------------- | -------------------- |
+| [Algoritmos em Grafos](https://www.youtube.com/watch?v=fjOiu6CD5pc&list=PLrPn-zKAOzUzKdPqFNF52g-i9p1f-vmsk) | [Estruturas de Dados](https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW) | [Não iniciado] |
+| [Arquitetura de Computadores I](https://www.youtube.com/playlist?list=PLEUHFTHcrJmswfeq7QEHskgkT6HER3gK6) | [Circuitos Digitais](https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf) | [Não iniciado] |
+| [Probabilidade e Estatística](https://www.youtube.com/watch?v=snXf8YT7L3U&list=PLrOyM49ctTx8HWnxWRBtKrfcuf7ew_3nm) | [Cálculo I](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx) | [Não iniciado]|
+| [Cálculo II](https://www.youtube.com/watch?v=lQdzRBRL9Tw&list=PLAudUnJeNg4sd0TEJ9EG6hr-3d3jqrddN) | [Cálculo I](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx) | [Não iniciado] |
+| [Programação Funcional em Haskell](https://www.youtube.com/watch?v=eTisiy5FB7k&list=PLYItvall0TqJ25sVTLcMhxsE0Hci58mpQ&index=1) | \- | [Não iniciado] |
 
 ---
 
 ### 4ª Etapa
 
-| Etapa    | Aulas em Vídeo | Pré-requisitos | Leitura Recomendada |
-|----------|----------------|----------------|---------------------|
-| 4 | [Análise de Algoritmos](https://www.youtube.com/watch?v=_HBTCUNPxOg&list=PLncEdvQ20-mgGanwuFczm-4IwIdIcIiha) | [Algoritmos em Grafos](https://www.youtube.com/watch?v=fjOiu6CD5pc&list=PLrPn-zKAOzUzKdPqFNF52g-i9p1f-vmsk) | [Livros sobre Análise de Algoritmos](extras/bibliography/16_analysis_of_algorithms.md) |
-| 4 | [Métodos Numéricos I](https://www.youtube.com/watch?v=a6nNQ6qKgiY&list=PLI9WiBCz67cPTTRER4CrsN0wpRN-NmjGA) | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos)<br><br>[Cálculo I](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx) | [Livros sobre Métodos Numéricos](extras/bibliography/17_numeric_methods.md) |
-| 4 | [Banco de Dados](https://www.youtube.com/watch?v=pmAxIs5U1KI&list=PLxI8Can9yAHeHQr2McJ01e-ANyh3K0Lfq) | \- | [Livros sobre Bancos de Dados](extras/bibliography/18_database.md) |
-| 4 | [Arquitetura de Computadores II](https://www.youtube.com/playlist?list=PLEUHFTHcrJmsqKX-GDD-hBvkF8h2_BfKJ) | [Introdução à Ciência da Computação com Python II](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2)<br><br>[Arquitetura de Computadores I](https://www.youtube.com/playlist?list=PLEUHFTHcrJmswfeq7QEHskgkT6HER3gK6) | [Livros sobre Arquitetura de Computadores](extras/bibliography/19_computer_architecture_II.md) |
-| 4 | [Programação Lógica](https://youtube.com/playlist?list=PLZ-Bk6jzsb-OScKa7vhpcQXoU2uxYGaFx&si=Y52_w6CQPYEE2fLN) | \- | [Livros sobre Programação Lógica](extras/bibliography/20_logical_programming.md) |
+| Disciplina | Pré-requisitos | Situação |
+|----------------|----------------|---------------------|
+| [Análise de Algoritmos](https://www.youtube.com/watch?v=_HBTCUNPxOg&list=PLncEdvQ20-mgGanwuFczm-4IwIdIcIiha) | [Algoritmos em Grafos](https://www.youtube.com/watch?v=fjOiu6CD5pc&list=PLrPn-zKAOzUzKdPqFNF52g-i9p1f-vmsk) | [Não iniciado] |
+| [Métodos Numéricos I](https://www.youtube.com/watch?v=a6nNQ6qKgiY&list=PLI9WiBCz67cPTTRER4CrsN0wpRN-NmjGA) | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos)<br><br>[Cálculo I](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx) | [Não iniciado] |
+| [Banco de Dados](https://www.youtube.com/watch?v=pmAxIs5U1KI&list=PLxI8Can9yAHeHQr2McJ01e-ANyh3K0Lfq) | \- | [Não iniciado] |
+| [Arquitetura de Computadores II](https://www.youtube.com/playlist?list=PLEUHFTHcrJmsqKX-GDD-hBvkF8h2_BfKJ) | [Introdução à Ciência da Computação com Python II](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2)<br><br>[Arquitetura de Computadores I](https://www.youtube.com/playlist?list=PLEUHFTHcrJmswfeq7QEHskgkT6HER3gK6) | [Não iniciado] |
+| [Programação Lógica](https://youtube.com/playlist?list=PLZ-Bk6jzsb-OScKa7vhpcQXoU2uxYGaFx&si=Y52_w6CQPYEE2fLN) | \- | [Não iniciado] |
 
 ---
 
 ### 5ª Etapa
 
-| Etapa | Aulas em Vídeo | Pré-requisitos | Leitura Recomendada |
-|-------|----------------|----------------|---------------------|
-| 5 | [Redes de Computadores](https://www.youtube.com/playlist?list=PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR) |  \- | [Livros sobre Rede de Computadores](extras/bibliography/21_computer_network.md) |
-| 5 | [Introdução à Engenharia de Software](https://www.youtube.com/watch?v=h_hEI1Kfm2U&list=PLhBaeEzs3d7lsn_Mq2n3R4_api16Wkp1Q)  | [Introdução à Ciência da Computação com Python II](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2) | [Livros sobre Engenharia de Software](extras/bibliography/22_software_engineering.md) |
-| 5 | [Sistemas Operacionais](https://www.youtube.com/watch?v=EGn8fOf7zE0&list=PLSmh8AKk_aUn9HxFs5FnjQupdQnV56MXV) | [Arquitetura de Computadores II](https://www.youtube.com/playlist?list=PLEUHFTHcrJmsqKX-GDD-hBvkF8h2_BfKJ) | [Livros sobre Sistemas Operacionais](extras/bibliography/23_operating_system.md) |
-| 5 | [Programação Matemática](https://www.youtube.com/watch?v=8rrgnFCL9LM&list=PL2peXovwG2kuqXC6sECjFSiG-MT1yXMQ-) | [Álgebra Linear I](https://www.youtube.com/playlist?list=PLIEzh1OveCVczEZAjhVIVd7Qs-X8ILgnI) | [Livros sobre Programação Matemática/Pesquisa Operacional](extras/bibliography/24_math_optimization.md) |
-| 5 | [Fundamentos de Computação Gráfica](https://www.youtube.com/watch?v=AVSAesOiKYY&list=PLE51fUFkeIwLXwe4rvG4EMgw7zgjP-tDx) | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | [Livros sobre Computação Gráfica](extras/bibliography/25_fundamentals_computer_graphics.md) |
+| Disciplina | Pré-requisitos | Situação |
+|----------------|----------------|---------------------|
+| [Redes de Computadores](https://www.youtube.com/playlist?list=PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR) |  \- | [Não iniciado] |
+| [Introdução à Engenharia de Software](https://www.youtube.com/watch?v=h_hEI1Kfm2U&list=PLhBaeEzs3d7lsn_Mq2n3R4_api16Wkp1Q)  | [Introdução à Ciência da Computação com Python II](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2) | [Não iniciado] |
+| [Sistemas Operacionais](https://www.youtube.com/watch?v=EGn8fOf7zE0&list=PLSmh8AKk_aUn9HxFs5FnjQupdQnV56MXV) | [Arquitetura de Computadores II](https://www.youtube.com/playlist?list=PLEUHFTHcrJmsqKX-GDD-hBvkF8h2_BfKJ) | [Não iniciado] |
+| [Programação Matemática](https://www.youtube.com/watch?v=8rrgnFCL9LM&list=PL2peXovwG2kuqXC6sECjFSiG-MT1yXMQ-) | [Álgebra Linear I](https://www.youtube.com/playlist?list=PLIEzh1OveCVczEZAjhVIVd7Qs-X8ILgnI) | [Não iniciado] |
+| [Fundamentos de Computação Gráfica](https://www.youtube.com/watch?v=AVSAesOiKYY&list=PLE51fUFkeIwLXwe4rvG4EMgw7zgjP-tDx) | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | [Não iniciado] |
 
 
 ---
 
 ### 6ª Etapa
 
-| Etapa | Aulas em Vídeo | Pré-requisitos | Leitura Recomendada |
-|-------|----------------|----------------|---------------------|
-| 6 | [Linguagens Formais e Autômatos](https://www.youtube.com/watch?v=4zMwOozUt9U&list=PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4&pp=iAQB) | [Matemática Discreta](https://www.youtube.com/watch?v=KGoSTh1sgyM&list=PL6mfjjCaO1WrEJ0JKRyXO3QjaPkJaSvAS) | [Livros sobre Linguagens Formais e Autômatos](extras/bibliography/26_automata_theory.md) |
-| 6 | [Inteligência Artificial](https://www.youtube.com/watch?v=-T3zDFxngf4&list=PLeejGOroKw_txh7j7S3etF5eudI2WvMx0) | [Estruturas de Dados](https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW)<br><br>[Probabilidade e Estatística](https://www.youtube.com/watch?v=snXf8YT7L3U&list=PLrOyM49ctTx8HWnxWRBtKrfcuf7ew_3nm) | [Livros sobre Inteligência Artificial](extras/bibliography/27_artificial_intelligence.md) |
-| 6 | [Sistemas Distribuídos](https://www.youtube.com/watch?v=TEEy5f46h_Q&list=PLP0bYj2MTFcuXa4-EbBKhvehr-rkxpeR8&index=1) | [Redes de Computadores](https://www.youtube.com/playlist?list=PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR) | [Livros sobre Sistemas Distríbuidos](extras/bibliography/28_distributed_computing.md) |
-| 6 | [Teoria dos Grafos](https://www.youtube.com/watch?v=kfHqZLYHfHU&list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX) | [Matemática Discreta](https://www.youtube.com/watch?v=KGoSTh1sgyM&list=PL6mfjjCaO1WrEJ0JKRyXO3QjaPkJaSvAS) | [Livros sobre Teoria dos Grafos](extras/bibliography/29_graphs.md) |
-| 6 | [Cálculo III](https://www.youtube.com/watch?v=8mBTfk7s63s&list=PLAudUnJeNg4ugGUJo52dtgFZ_tCm1Ds5W) | [Cálculo II](https://www.youtube.com/watch?v=lQdzRBRL9Tw&list=PLAudUnJeNg4sd0TEJ9EG6hr-3d3jqrddN) | [Livros sobre Cálculo III](extras/bibliography/30_multivariable_calculus.md) |
+| Disciplina | Pré-requisitos | Situação |
+|----------------|----------------|---------------------|
+| [Linguagens Formais e Autômatos](https://www.youtube.com/watch?v=4zMwOozUt9U&list=PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4&pp=iAQB) | [Matemática Discreta](https://www.youtube.com/watch?v=KGoSTh1sgyM&list=PL6mfjjCaO1WrEJ0JKRyXO3QjaPkJaSvAS) | [Não iniciado]) |
+| [Inteligência Artificial](https://www.youtube.com/watch?v=-T3zDFxngf4&list=PLeejGOroKw_txh7j7S3etF5eudI2WvMx0) | [Estruturas de Dados](https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW)<br><br>[Probabilidade e Estatística](https://www.youtube.com/watch?v=snXf8YT7L3U&list=PLrOyM49ctTx8HWnxWRBtKrfcuf7ew_3nm) | [Não iniciado] |
+| [Sistemas Distribuídos](https://www.youtube.com/watch?v=TEEy5f46h_Q&list=PLP0bYj2MTFcuXa4-EbBKhvehr-rkxpeR8&index=1) | [Redes de Computadores](https://www.youtube.com/playlist?list=PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR) | [Não iniciado] |
+| [Teoria dos Grafos](https://www.youtube.com/watch?v=kfHqZLYHfHU&list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX) | [Matemática Discreta](https://www.youtube.com/watch?v=KGoSTh1sgyM&list=PL6mfjjCaO1WrEJ0JKRyXO3QjaPkJaSvAS) | [Não iniciado] |
+| [Cálculo III](https://www.youtube.com/watch?v=8mBTfk7s63s&list=PLAudUnJeNg4ugGUJo52dtgFZ_tCm1Ds5W) | [Cálculo II](https://www.youtube.com/watch?v=lQdzRBRL9Tw&list=PLAudUnJeNg4sd0TEJ9EG6hr-3d3jqrddN) | [Não iniciado] |
 
 ---
 
 ### 7ª Etapa
 
-| Etapa | Aulas em Vídeo | Pré-requisitos | Leitura Recomendada |
-|-------|----------------|----------------|---------------------|
-| 7 | [Teoria da Computação](https://www.youtube.com/watch?v=dWRxL30aoes&list=PLYLYA7XrlskNgCeSpJf9PQHHb8Z4WpRm4) | [Linguagens Formais e Autômatos](https://www.youtube.com/watch?v=4zMwOozUt9U&list=PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4&pp=iAQB) | [Livros sobre Teoria da Computação](extras/bibliography/31_theory_of_computation.md) |
-| 7 | [Deep Learning](https://www.youtube.com/watch?v=0VD_2t6EdS4&list=PL9At2PVRU0ZqVArhU9QMyI3jSe113_m2-) | [Inteligência Artificial](https://www.youtube.com/watch?v=-T3zDFxngf4&list=PLeejGOroKw_txh7j7S3etF5eudI2WvMx0) | [Livros sobre Deep Learning](extras/bibliography/32_deep_learning.md) |
-| 7 | [Compiladores](https://youtube.com/playlist?list=PLX6Nyaq0ebfhI396WlWN6WlBm-tp7vDtV&si=LoaU9lzLMuSVikgi) | [Estruturas de Dados](https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW)<br><br>[Teoria dos Grafos](https://www.youtube.com/watch?v=kfHqZLYHfHU&list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX) | [Livros sobre Compiladores](extras/bibliography/33_compilers.md) |
-| 7 | [Computação Quantica](https://youtube.com/playlist?list=PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R&si=hLYHhS2BTKRgNwMJ) | [Cálculo III](https://www.youtube.com/watch?v=8mBTfk7s63s&list=PLAudUnJeNg4ugGUJo52dtgFZ_tCm1Ds5W)<br><br>[Arquitetura de Computadores II](https://www.youtube.com/playlist?list=PLEUHFTHcrJmsqKX-GDD-hBvkF8h2_BfKJ) | [Livros sobre Computação Quântica](extras/bibliography/34_quantum_copmputing.md) |
-| 7 | [Metodologia da Pesquisa](https://youtube.com/playlist?list=PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__&si=0dXojlZV5EisMB6s)  | \- | [Livros sobre Metodologia de Pesquisa](extras/bibliography/35_methodology.md) |
+| Disciplina | Pré-requisitos | Situação |
+|----------------|----------------|---------------------|
+| [Teoria da Computação](https://www.youtube.com/watch?v=dWRxL30aoes&list=PLYLYA7XrlskNgCeSpJf9PQHHb8Z4WpRm4) | [Linguagens Formais e Autômatos](https://www.youtube.com/watch?v=4zMwOozUt9U&list=PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4&pp=iAQB) | [Não iniciado] |
+| [Deep Learning](https://www.youtube.com/watch?v=0VD_2t6EdS4&list=PL9At2PVRU0ZqVArhU9QMyI3jSe113_m2-) | [Inteligência Artificial](https://www.youtube.com/watch?v=-T3zDFxngf4&list=PLeejGOroKw_txh7j7S3etF5eudI2WvMx0) | [Não iniciado] |
+| [Compiladores](https://youtube.com/playlist?list=PLX6Nyaq0ebfhI396WlWN6WlBm-tp7vDtV&si=LoaU9lzLMuSVikgi) | [Estruturas de Dados](https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW)<br><br>[Teoria dos Grafos](https://www.youtube.com/watch?v=kfHqZLYHfHU&list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX) | [Não iniciado] |
+| [Computação Quantica](https://youtube.com/playlist?list=PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R&si=hLYHhS2BTKRgNwMJ) | [Cálculo III](https://www.youtube.com/watch?v=8mBTfk7s63s&list=PLAudUnJeNg4ugGUJo52dtgFZ_tCm1Ds5W)<br><br>[Arquitetura de Computadores II](https://www.youtube.com/playlist?list=PLEUHFTHcrJmsqKX-GDD-hBvkF8h2_BfKJ) | [Não iniciado] |
+| [Metodologia da Pesquisa](https://youtube.com/playlist?list=PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__&si=0dXojlZV5EisMB6s)  | \- | [Não iniciado] |
