@@ -32,9 +32,7 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 - Posso optar por disciplinas que tenho mais interesse ou necessidade
 - Ao final do curso pretendo fazer um Trabalho de Conclusão de Curso (TCC).
 
-E que leve o tempo que for.
-
-<center>"_Não fique preso em caixas, crie sua própria bolha_"</center>
+<p align="center"> <i>"Não fique preso em caixas, crie sua própria bolha"</i></p>
 
 
 ## Curriculo
