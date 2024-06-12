@@ -41,23 +41,13 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 ## Curriculo
 
 ### 1ª Etapa
-| Etapa | Aulas em Vídeo | Pré-requisitos | Leitura Recomendada |
+| Etapa | Disciplina | Pré-requisitos | Situação |
 |---|---|---|---|
-| 1 | [Circuitos Digitais](
- https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf
-) | - | [Situação]  |
-| 1 | [Matemática Discreta](
- https://www.youtube.com/playlist?list=PLrOyM49ctTx-HWypJVvn_zMO1o7oOAfVx
-) | - | [Situação] |
-| 1 | [Linguagens de Programação](
- https://www.youtube.com/watch?v=xfDdxqbkiSQ&list=PLnzT8EWpmbka4KukGR184tifzqcuq_ZDv
-) | - | [Situação] |
-| 1 | [Introdução à Ciência da Computação com Python I](
- https://www.coursera.org/learn/ciencia-computacao-python-conceitos
-) | - | [Situação] |
-| 1 | [Geometria Analítica](
- https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L
-) | - | [Situação] |
+| 1 | [Circuitos Digitais](https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf) | - | [Cursando]  |
+| 1 | [Matemática Discreta](https://www.youtube.com/playlist?list=PLrOyM49ctTx-HWypJVvn_zMO1o7oOAfVx) | - | [Cursando] |
+| 1 | [Linguagens de Programação](https://www.youtube.com/watch?v=xfDdxqbkiSQ&list=PLnzT8EWpmbka4KukGR184tifzqcuq_ZDv) | - | [Cursando] |
+| 1 | [Introdução à Ciência da Computação com Python I](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | - | [Concluido] |
+| 1 | [Geometria Analítica](https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L) | - | [Não iniciado] |
 
 ---
 
