@@ -222,6 +222,7 @@
 	\\
 	O mesmo método se aplica a somas binárias, exemplificado abaixo:
 	\begin{table}[h]
+		\centering
 		\begin{tabular}{|c|c|c|c|}
 			\hline
 			x & Y & Resultado & Vai um \\ \hline
@@ -890,8 +891,8 @@
 
 		\subsection{\centering Mapas de Veitch - Karnaugh}
 	
-	Há método mais otimizado e visual para realizar esse processo de 
-	simplificação, foi descrito em um artigo por Edward W. Veith e públicado 
+	Há métodos mais otimizado e visual para realizar esse processo de 
+	simplificação, foi introduzido em um artigo por Edward W. Veith e públicado 
 	em 1952. \\
 	\newline
 	Veitch introduziu o método visual, porém, era complicado de se entender e 
@@ -901,9 +902,69 @@
 	facilitava a visualização das simplificações possiveis, também introduziu
 	agrupamentos em potência de 2, isso tornou a simplificação mais eficiênte
 	e sistemática, karnaugh simplificou o método que era complicado de entender,
-	semelhante o que aconteceu com Von Neumann e nosso querido amigo Turing.
+	semelhante o que aconteceu com Von Neumann e nosso querido amigo Turing. \\
 
+		\subsubsection{\centering Código de Gray}
+	
+	A códificação de gray consiste em transpor bit a bit de coluna a coluna da 
+	matriz ou seja, a cada passo na matriz se anda um bit, por exemplo: \\
+	Imagine que essa sequência: 00, 01, 11, 10, 00 ... isso significa que a cada
+	coluna que se locomove a direita é de 1 bit, logo, para a esquerda também é de 
+	1 bit. \\
+	
+	Agora fica intuitivo imaginar que para cima ou para baixo a diferença
+	também será de 1 bit, ou seja: \\
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			ab/cd & 00 & 01 & 11 & 10 \\ \hline
+			00  &   &   &  & \\ \hline
+			01  &   &   &  & \\ \hline
+			11  &   &   &  & \\ \hline
+			10  &   &   &  & \\ \hline
+		\end{tabular}
+	\end{table}
 
+	O mapa de Karnaught é bastante eficiênte para expressões com 4 variáveis, 
+	com 5 variáveis em diante o mapa pode ficar mais complexo, neste caso, é 
+	recomendado outros algoritmos como o do \texttt{Quine-McCluskey}. \\ 
+	\newline
+	Após a codificação de Gray, associamos cada bit a uma variável, por exemplo
+	em uma função com 4 variáveis F(A, B, C, D), na primeira linha da matriz
+	poderiamos ter algo como (ab), onde os bits 00, 01, 11 e 10 representa o 
+	estado atual de cada variável, o mesmo se aplica a variável (cd), conforme
+	exemplificado na tabela acima. \\
+	\newline
+	Agora mapeamos a saida S da tabela verdade da função observando os 
+	\texttt{Mintermos}, e associando as variáveis correspondentes, observe
+	um exemplo com 3 variáveis: \\
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			A & B & C & S \\ \hline
+			0 & 0 & 0 & 0 \\ \hline
+			0 & 0 & 1 & 0 \\ \hline
+			0 & 1 & 0 & 1 \\ \hline
+			0 & 1 & 1 & 0 \\ \hline
+			1 & 0 & 0 & 1 \\ \hline
+			1 & 0 & 1 & 1 \\ \hline
+			1 & 1 & 0 & 0 \\ \hline
+			1 & 1 & 1 & 1 \\ \hline
+		\end{tabular}
+		\caption{Tabela Verdade com 3 variáveis}
+	\end{table}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			A/BC & 00 & 01 & 11 & 10 \\ \hline
+			0 & x & x & x & x\\ \hline
+			1 & x & x & x & x\\ \hline
+		\end{tabular}
+		\caption{Mapa de Karnaught}
+	\end{table}
 
 	\bibliographystyle{apalike}
         \bibliography{ref.bib}
