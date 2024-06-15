@@ -950,8 +950,8 @@
 			0 & 1 & 1 & 0 \\ \hline
 			1 & 0 & 0 & 1 \\ \hline
 			1 & 0 & 1 & 1 \\ \hline
-			1 & 1 & 0 & 0 \\ \hline
-			1 & 1 & 1 & 1 \\ \hline
+			1 & 1 & 0 & 1 \\ \hline
+			1 & 1 & 1 & 1 \\ \hline 
 		\end{tabular}
 		\caption{Tabela Verdade com 3 variáveis}
 	\end{table}
@@ -960,11 +960,29 @@
 		\begin{tabular}{|c|c|c|c|c|}
 			\hline
 			A/BC & 00 & 01 & 11 & 10 \\ \hline
-			0 & x & x & x & x\\ \hline
-			1 & x & x & x & x\\ \hline
+			0 & x & x & x & 1 \\ \hline
+			1 & 1 & 1 & 1 & 1 \\ \hline
 		\end{tabular}
 		\caption{Mapa de Karnaught}
 	\end{table}
+
+	Agora podemos mapear os grupos de \texttt{mintermos} com potência de 2. \\
+	\newline
+	Primeiro grupo com 4 \texttt{mintermos}: $A$ é a única variável que não se 
+	altera com a alternância dos bits. \\
+	Agora só temos grupo com 2 \texttt{mintermos}: $B\bar{C}$ ou seja, 
+	a minha expressão simplificada fica: 
+	\begin{center}
+		$A + (B * \bar{C})$
+	\end{center}
+	Repare na diferença entre a expressão sem simplificação: 
+	\begin{center}
+		$
+		(\bar{A}*B*\bar{C}) + (A*\bar{B}*\bar{C}) +
+		(A*\bar{B}*C) + (A*B*\bar{C}) + (A*B*C)
+		$
+	\end{center}
+	
 
 	\bibliographystyle{apalike}
         \bibliography{ref.bib}
