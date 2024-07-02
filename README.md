@@ -30,8 +30,7 @@ Este é o registro da minha trajetória na Universidade Brasileira Livre no curs
 - Posso optar por disciplinas que tenho mais interesse ou necessidade
 - Ao final do curso pretendo fazer um Trabalho de Conclusão de Curso (TCC).
 
-<p align="center"> <i>"Não fique preso em caixas, crie sua própria bolha"</i></p>
-
+- [Simulador de Circuitos Digitais](https://github.com/hneemann/Digital)
 
 ## Curriculo
 
