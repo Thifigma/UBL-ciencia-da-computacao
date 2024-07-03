@@ -8,7 +8,6 @@
 \usepackage{graphicx}
 \usepackage{natbib}
 
-
 	\title{Circuitos Digitais}
 	\author{Thiago Figueiredo Marcos}
 	\date{\today}
@@ -974,18 +973,46 @@
 
 	\section{\centering Circuitos Combinacionais}
 
-	Todos os circuitos estão disponíveis, na pasta \texttt{circuitos} e 
-	possuem a extensão .dig e só podem ser visualizados com o simulador
-	disponível na pagina inicial do projeto.
+	Todos os circuitos estão disponíveis, no diretório 
+	\texttt{circuitos-digitais/circuitos} e precisam do software de nome
+	Digital	para serem visualizados, possuem a extensão .dig. 
+	O software é aberto e está disponível na pagina inicial deste projeto.
+	\newline
+	Em circuitos combinacionais há duas situações, uma em que há uma construção
+	lógica com combinações de portas (E, OU, Nao, etc...) para resolver 
+	determinado problema, a outra situação é em respeito a obter a expressão 
+	algébrica de um circuito. \\
+	\newline
+	Na imagem abaixo há um circuito combinacional construido pela função 
+	F(A, B, C, D) e de saida (E). Vamos obter a expressão algébrica deste 
+	circuito. 
+	% Incluir imagem do circuito
+	A expressão algébrica que representa o circuito acima é a seguinte: \\ 
+	$
+	((A \oplus B \oplus C) * \lnot(A + B)) + 
+	(\lnot(\bar{A} \land B \land C \land \bar{D}))
+	$ \\	
+	\newline
+	Vamos analisar o próximo circuito, repare que neste caso existem duas saidas
+	E e D, e cada uma delas deve possuir uma expressão própria. 
+	\newline
+	%Inserir imagem do circuito
 
+	Aqui vale ressaltar que a direção ou o ângulo no qual se encontra a porta 
+	lógica, não interfere na lógica da arquitetura, ou seja, é apenas uma 
+	convenção para uma melhor visualização do circuito. Dito isso
+	a expressão algébrica para o circuito acima é o seguinte: \\
+	\newline
+	$E = (A*B) + ((A + B) * C)$ \\
+	$D = (A \oplus B \oplus C)$ \\
+	\newline
+	Neste ponto, fica fácil observar que podemos usar os metodos de simplificações
+	algébricas booleanas para diminuir os circuitos digitais, e isso é fantastico.
 
 	\subsection{\centering Portas Universais}
 
 	As portas lógicas NAND e NOR são ditas portas lógicas universais, pois
-	com apenas umas dessas portas podemos representar todas as outras
-
-	Observe as construções das portas NOT, AND e OR com a porta NAND
-	dentro do diretorio universais.
+	com apenas um tipo (NAND ou NOR) podemos representar todas as outras.
 
 	\bibliographystyle{apalike}
         \bibliography{ref.bib}
