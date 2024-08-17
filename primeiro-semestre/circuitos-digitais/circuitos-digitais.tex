@@ -988,52 +988,67 @@
 		$
 	\end{center}
 
+	\section{\centering CMOS e Portas Básicas}
+		% Comentar sobre as portas lógicas universais.	
+	
 	\section{\centering Circuitos Combinacionais}
 
-	Todos os circuitos estão disponíveis, no diretório 
-	\texttt{circuitos-digitais/circuitos} e precisam do software de nome
-	Digital	para serem visualizados, possuem a extensão .dig. 
-	O software é aberto e está disponível na pagina inicial deste projeto.
+	Podemos entender os circuitos combinacionais como a construção
+	física das expressões algébricas booleanas, e podemos entender
+	a construção física como a combinação de diferentes portas 
+	lógicas para expressar um resultado. \\
 	\newline
-	Em circuitos combinacionais há duas situações, uma em que há uma construção
-	lógica com combinações de portas (E, OU, Nao, etc...) para resolver 
-	determinado problema, a outra situação é em respeito a obter a expressão 
-	algébrica de um circuito. \\
+	Vejamos um exemplo básico, a expressão: $\lnot{a}b \lor a\lnot{b}$ \\
 	\newline
+	Pode ser expressa físicamente pelo seguinte circuito
+	\begin{figure}[h]
+		\centering
+		\caption{circuitos/universais/xor.dig}
+		\includegraphics[width=0.5\textwidth]{img/cuircuito-xor.png}
+	\end{figure}
 
-	O Circuito a ser observado pode ser encontrado na pasta 
-	circuitos/combinacionais/circuito-F.dig. 
-	É construido pela função F(A, B, C, D) e de saida (E). 
-	Vamos obter a expressão algébrica deste circuito. \\
+	Reapre que o operador (E) na expressão é implícito enquanto no circuito
+	sua construção é explícita. A expressão poderia também ser representada 
+	da seguinte forma: $(\lnot{a} \land b) \lor (a \land \lnot{b})$, ou seja,
+	são apenas formas diferentes de representar a mesma expressão, e, para
+	melhorar a leitura, corriqueiramente podem ter representações implícitas
+	nas expressões. \\
 	\newline
-	A expressão é a seguinte: \\ 
-	$
-	((A \oplus B \oplus C) * \lnot(A + B)) + 
-	(\lnot(\bar{A} \land B \land C \land \bar{D}))
-	$ \\	
+	Observe agora a expressão: 
+	$ ((a \oplus b \oplus c) \land \lnot{(b \lor d)}) \lor 
+	\lnot{(\lnot{a} \land b \land c \lnot{d})} $ \\
 	\newline
-	O próximo circuito pode ser encontrado na seguinte pasta, 
-	circuitos/combinacionais/somador-completo.dig. \\
-	\newline
-	Repare que neste caso existem duas saidas
-	E e D, e cada uma delas deve possuir uma expressão própria. 
-	\newline
-	Aqui vale ressaltar que a direção ou o ângulo no qual se encontra a porta 
-	não interfere na lógica da arquitetura, ou seja, é apenas uma 
-	convenção para uma melhor visualização do circuito. Dito isso
-	a expressão algébrica para o circuito acima é o seguinte: \\
-	\newline
-	$E = (A*B) + ((A + B) * C)$ \\
-	$D = (A \oplus B \oplus C)$ \\
-	\newline
-	Neste ponto, fica fácil observar que podemos usar os metodos de 
-	simplificações algébricas booleanas para diminuir os circuitos digitais, 
-	e isso é fantastico.
+	Pode ser expressa físicamente pelo seguinte circuito:
+	\begin{figure}[h]
+		\centering
+		\caption{circuitos/combinacionais/circuito-F.dig}
+		\includegraphics[width=0.5\textwidth]{img/circuito-F.png}
+	\end{figure}
 	
-	\subsection{\centering Portas Universais}
+	Para finalizar e consolidar os conhecimentos em circuitos combinacionais
+	vamos considerar o seguinte circuito:
+	\begin{figure}[h]
+		\centering
+		\caption{circuitos/combinacionais/somador-completo.dig}
+		\includegraphics[width=0.5\textwidth]{img/somador.png}
+	\end{figure}
+	Repare que neste caso especifico temos duas saidas: S0 e S1
+	e as entradas a, b, c.
+	\newline
+	Podemos obter as expressões a partir do curcuito acima, observe que
+	para a saida S0 temos: $a \land e \lor (a \land b) \land c$ enquanto
+	para saida S1 temos: $a \oplus b \oplus c$. 
+	\newline
+	Podemos perceber então a relação direta entre a construção de circuitos
+	combinacionais utilizando blocos, ou seja, portas lógicas e também 
+	a relação entre as expressões algébricas obtidas por uma análise 
+	do circuito.
 
-	As portas lógicas NAND e NOR são ditas portas lógicas universais, pois
-	com apenas um tipo (NAND ou NOR) podemos representar todas as outras.
+	\subsection{\centering Blocos Combinacionais Básicos}
+
+
+
+
 
 	\bibliographystyle{apalike}
         \bibliography{ref.bib}
